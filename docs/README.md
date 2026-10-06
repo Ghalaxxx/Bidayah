@@ -2,6 +2,8 @@
 
 Start with the root README for setup and demo reproduction.
 
+For copyable first-time setup, Windows instructions, private environment setup, Vercel deployment and troubleshooting, use the root `RUNNING_GUIDE.md`.
+
 - `qa/FINAL_SUBMISSION.md`: final packaging, security, production checks and deployment status.
 - `qa/ASK_INTELLIGENCE.md`: finite contextual evaluation and evidence limitations.
 - `qa/ENTRY_SIMPLIFICATION.md`: direct-entry navigation and session migration.

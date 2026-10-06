@@ -2,6 +2,8 @@
 
 **A gentle, practical first step into Islam.**
 
+For a first-time setup, follow [RUNNING_GUIDE.md](RUNNING_GUIDE.md), including Windows instructions and production troubleshooting.
+
 Bidayah helps zero-knowledge beginners prepare for their first prayer and first fast. It combines bilingual, illustrated learning journeys with contextual questions grounded in an approved source set.
 
 ## Problem and Solution
@@ -34,6 +36,10 @@ Without a key, Ask works through real structured retrieval. Optional OpenAI gene
 
 **Stack:** React 19, TypeScript 6, Vite 8, Lucide, local font assets and Node.js HTTP APIs. Journey transitions and simulation boundaries are deterministic. Approved JSON evidence is loaded by the server; the default demo requires no database or vector service. Progress persists in the current browser's `localStorage`.
 
+## User Journey
+
+Welcome -> choose Arabic or English -> First Prayer or First Fast -> preparation and illustrated learning -> contextual Ask questions -> readiness/completion. Prayer ends preparation with a phone-aside boundary; fasting completion follows a clearly labeled simulation, not real timing evidence.
+
 ## Project Structure
 
 ```text
@@ -62,10 +68,13 @@ Prerequisites: **Node.js 22.12+ or Node.js 24** and npm. Internal audio verifica
 git clone https://github.com/Ghalaxxx/Bidayah.git
 cd Bidayah
 npm ci
+cp .env.example .env
 npm run dev
 ```
 
 Open the localhost URL printed by Vite. Development serves the UI and Ask API together. No environment variables are required for retrieval-only operation.
+
+On PowerShell, use `Copy-Item .env.example .env` instead of `cp`. Run commands from the project root, where `package.json` exists.
 
 For optional AI, copy `.env.example` to `.env` locally and fill only the needed values. Never put credentials in `VITE_` variables, browser storage or commits. Development and production Node launchers load `.env`; hosting dashboards supply production secrets.
 
@@ -117,7 +126,24 @@ The contextual suite covers 287 question instances, both languages, follow-ups, 
 
 Default deployment needs no secrets and uses retrieval-only. Set optional server variables in the hosting dashboard; keep local Python embeddings disabled on serverless hosting. Verify `/api/health`, a sourced Ask answer and the journeys afterward. A traditional Node host can run `npm start` behind HTTPS with platform-provided `HOST` and `PORT`.
 
+For live generation: Project -> Settings -> Environment Variables -> add `OPENAI_API_KEY` privately for Production -> Save -> Redeploy. Never upload `.env`. A local working key does not configure Vercel. `/api/health` only proves configuration; verify `mode: "llm-rag"` in a supported definition question's `/api/ask` response. Sensitive requirement/number/time questions deliberately remain extractive.
+
 [Submission verification](docs/qa/FINAL_SUBMISSION.md) records actual deployment/GitHub status. Configuration alone does not prove a public deployment succeeded. Hosting reference: [Vercel Node.js functions](https://vercel.com/docs/functions/runtimes/node-js).
+
+## Troubleshooting
+
+- `ENOENT ... package.json`: enter the cloned project directory before running npm.
+- Windows `EPERM` during `npm ci`: stop this project's dev server with Ctrl+C, then retry; do not stop unrelated Node processes.
+- Missing key: retrieval-only is expected. Add the key to root `.env` and restart locally.
+- Works locally, not on Vercel: check server-side Production variables, redeploy after changes, and inspect function logs. Static-only hosting cannot serve Ask.
+- `retrieval-only-provider-unavailable`: inspect connectivity, model access and API billing. ChatGPT billing is separate from API billing.
+- Installation/build failure: use Node 22.12+ or 24, install with `npm ci`, and read the first error. Do not change the lockfile as a speculative fix.
+
+Detailed procedures: [Running Guide](RUNNING_GUIDE.md).
+
+## Security
+
+Real keys are server-side environment variables. `.env` and its variants are ignored; `.env.example` contains safe defaults only. Neither browser assets nor Git history should contain credentials. Run `node scripts/check-submission-secrets.mjs` before publishing. This heuristic does not replace a broader security review; rotate any credential if exposed. Public AI endpoints need operational rate/budget controls before broader use.
 
 ## Sources and Limitations
 
