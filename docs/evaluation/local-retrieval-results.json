@@ -1,0 +1,226 @@
+{
+  "executedAt": "2026-10-04T17:14:30.545Z",
+  "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "localFilesOnly": true,
+  "dimensions": 384,
+  "elapsedMs": 17549,
+  "cases": [
+    {
+      "q": "What does the opening Allahu Akbar mean?",
+      "journey": "first_prayer",
+      "step": "prayer_takbir",
+      "expected": "takbir_definition",
+      "lexicalTop1": null,
+      "semanticTop3": [
+        {
+          "id": "takbir_definition",
+          "journey": "first_prayer",
+          "score": 0.7027973799919802
+        },
+        {
+          "id": "prayer_recitation",
+          "journey": "first_prayer",
+          "score": 0.5351419839111385
+        },
+        {
+          "id": "prayer_intention",
+          "journey": "first_prayer",
+          "score": 0.3898565085595349
+        }
+      ],
+      "hybridTop1": "takbir_definition",
+      "retrievalMode": "hybrid-local-multilingual",
+      "correct": true
+    },
+    {
+      "q": "اش هو التسبيح",
+      "journey": "first_prayer",
+      "step": "prayer_ruku",
+      "expected": "tasbih_ruku",
+      "lexicalTop1": "tasbih_ruku",
+      "semanticTop3": [
+        {
+          "id": "tasbih_ruku",
+          "journey": "first_prayer",
+          "score": 0.5354803868466536
+        },
+        {
+          "id": "tasbih_sujud",
+          "journey": "first_prayer",
+          "score": 0.4696617190420013
+        },
+        {
+          "id": "takbir_definition",
+          "journey": "first_prayer",
+          "score": 0.43204441355381756
+        }
+      ],
+      "hybridTop1": "tasbih_ruku",
+      "retrievalMode": "lexical-contextual",
+      "correct": true
+    },
+    {
+      "q": "اش هو التسبيح",
+      "journey": "first_prayer",
+      "step": "prayer_sujud",
+      "expected": "tasbih_sujud",
+      "lexicalTop1": "tasbih_sujud",
+      "semanticTop3": [
+        {
+          "id": "tasbih_ruku",
+          "journey": "first_prayer",
+          "score": 0.5354803868466536
+        },
+        {
+          "id": "tasbih_sujud",
+          "journey": "first_prayer",
+          "score": 0.4696617190420013
+        },
+        {
+          "id": "takbir_definition",
+          "journey": "first_prayer",
+          "score": 0.43204441355381756
+        }
+      ],
+      "hybridTop1": "tasbih_sujud",
+      "retrievalMode": "lexical-contextual",
+      "correct": true
+    },
+    {
+      "q": "هل اقولها بصوت عالي",
+      "journey": "first_prayer",
+      "step": "prayer_takbir",
+      "expected": "phrase_volume_unspecified",
+      "lexicalTop1": "phrase_volume_unspecified",
+      "semanticTop3": [
+        {
+          "id": "tasbih_ruku",
+          "journey": "first_prayer",
+          "score": 0.5215539777572695
+        },
+        {
+          "id": "takbir_definition",
+          "journey": "first_prayer",
+          "score": 0.4902780628354353
+        },
+        {
+          "id": "tasbih_sujud",
+          "journey": "first_prayer",
+          "score": 0.4462815445826769
+        }
+      ],
+      "hybridTop1": "phrase_volume_unspecified",
+      "retrievalMode": "lexical-contextual",
+      "correct": true
+    },
+    {
+      "q": "Is eating the predawn meal compulsory for my fast?",
+      "journey": "first_fast",
+      "step": "suhoor",
+      "expected": "suhoor_requirement",
+      "lexicalTop1": null,
+      "semanticTop3": [
+        {
+          "id": "fajr_boundary",
+          "journey": "first_fast",
+          "score": 0.5174630504665155
+        },
+        {
+          "id": "fast_definition",
+          "journey": "first_fast",
+          "score": 0.48556316357739887
+        },
+        {
+          "id": "fast_intention",
+          "journey": "first_fast",
+          "score": 0.45545279255254867
+        }
+      ],
+      "hybridTop1": null,
+      "correct": false
+    },
+    {
+      "q": "Can I break my fast using water when dates are unavailable?",
+      "journey": "first_fast",
+      "step": "iftar",
+      "expected": "iftar_food",
+      "lexicalTop1": "iftar_food",
+      "semanticTop3": [
+        {
+          "id": "iftar_food",
+          "journey": "first_fast",
+          "score": 0.6583756832016374
+        },
+        {
+          "id": "iftar_boundary",
+          "journey": "first_fast",
+          "score": 0.48376596771644054
+        },
+        {
+          "id": "fast_definition",
+          "journey": "first_fast",
+          "score": 0.43865150976222833
+        }
+      ],
+      "hybridTop1": "iftar_food",
+      "retrievalMode": "lexical-contextual",
+      "correct": true
+    },
+    {
+      "q": "Should my dates be an odd number at sunset?",
+      "journey": "first_fast",
+      "step": "iftar",
+      "expected": "iftar_count",
+      "lexicalTop1": "iftar_count",
+      "semanticTop3": [
+        {
+          "id": "iftar_count",
+          "journey": "first_fast",
+          "score": 0.5862823835229017
+        },
+        {
+          "id": "iftar_boundary",
+          "journey": "first_fast",
+          "score": 0.42709789403019227
+        },
+        {
+          "id": "iftar_food",
+          "journey": "first_fast",
+          "score": 0.3935544027364535
+        }
+      ],
+      "hybridTop1": "iftar_count",
+      "retrievalMode": "lexical-contextual",
+      "correct": true
+    },
+    {
+      "q": "I need to know the direction to face before praying",
+      "journey": "first_prayer",
+      "step": "prep_qiblah",
+      "expected": "qiblah_definition",
+      "lexicalTop1": null,
+      "semanticTop3": [
+        {
+          "id": "qiblah_definition",
+          "journey": "first_prayer",
+          "score": 0.5138386569110132
+        },
+        {
+          "id": "prayer_intention",
+          "journey": "first_prayer",
+          "score": 0.5040849183053588
+        },
+        {
+          "id": "wudu_next",
+          "journey": "first_prayer",
+          "score": 0.4950711158748674
+        }
+      ],
+      "hybridTop1": null,
+      "correct": false
+    }
+  ],
+  "lexicalAccuracy": 0.625,
+  "hybridAccuracy": 0.75,
+  "limitation": "Small diagnostic set, not a live LLM or pilot-readiness evaluation. Semantic top-three is an English-document diagnostic; hybridTop1 is the actual API with language-specific documents, current-step eligibility and lexical precedence."
+}

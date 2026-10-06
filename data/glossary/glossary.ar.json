@@ -1,0 +1,90 @@
+[
+  {
+    "id": "qiblah",
+    "terms": ["القبلة", "قبلة"],
+    "aliases": ["اتجاه القبلة", "اتجاه الصلاة"],
+    "definition": "القبلة هي الجهة التي يتوجه إليها المسلم في الصلاة.",
+    "beginnerExplanation": "في هذه الخطوة، المطلوب منك التوجه نحوها قبل بدء الصلاة.",
+    "relatedJourneyIds": ["first_prayer"],
+    "relatedStepIds": ["prep_qiblah"],
+    "sourceIds": ["prh_prayer_binbaz_001"],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "wudu",
+    "terms": ["الوضوء", "وضوء"],
+    "aliases": ["طهارة بالماء", "أتوضأ"],
+    "definition": "الوضوء طهارة بالماء نستعد بها للصلاة.",
+    "beginnerExplanation": "إذا لم تتوضأ من قبل، خذها خطوة خطوة داخل بداية.",
+    "relatedJourneyIds": ["first_prayer"],
+    "relatedStepIds": ["wudu_intro", "know_wudu"],
+    "sourceIds": ["prh_wudu_001"],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "suhoor",
+    "terms": ["السحور", "سحور"],
+    "aliases": ["الأكل قبل الفجر"],
+    "definition": "السحور هو الأكل قبل بدء الصيام وقبل الفجر.",
+    "beginnerExplanation": "السحور مستحب، وليس شرطًا لصحة الصيام.",
+    "relatedJourneyIds": ["first_fast"],
+    "relatedStepIds": ["suhoor"],
+    "sourceIds": ["binbaz_suhoor_001", "prh_fasting_001"],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "iftar",
+    "terms": ["الإفطار", "أفطر"],
+    "aliases": ["وقت الفطور", "إنهاء الصيام"],
+    "definition": "الإفطار هو إنهاء الصيام عند دخول وقته.",
+    "beginnerExplanation": "في رحلة الصيام يكون الإفطار بعد انتهاء وقت الصيام بغروب الشمس.",
+    "relatedJourneyIds": ["first_fast"],
+    "relatedStepIds": ["iftar"],
+    "sourceIds": ["prh_fasting_001"],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "rakah",
+    "terms": ["ركعة", "الركعة"],
+    "aliases": ["وحدة الصلاة"],
+    "definition": "الركعة جزء يتكرر في الصلاة ضمن ترتيب القيام والركوع والسجود.",
+    "beginnerExplanation": "في العرض التعليمي ستتابع ركعتين خطوة بخطوة.",
+    "relatedJourneyIds": ["first_prayer"],
+    "relatedStepIds": ["rakah_intro", "prayer_ruku", "prayer_sujud"],
+    "sourceIds": ["prh_prayer_binbaz_001"],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "ruku",
+    "terms": ["الركوع", "ركوع"],
+    "aliases": ["اركع", "انحناء الصلاة"],
+    "definition": "الركوع هو الانحناء في الصلاة بعد القيام والقراءة.",
+    "beginnerExplanation": "عندما تصل إليه، اتبع الخطوة الحالية ثم ارفع منه للخطوة التالية.",
+    "relatedJourneyIds": ["first_prayer"],
+    "relatedStepIds": ["prayer_ruku"],
+    "sourceIds": ["prh_prayer_binbaz_001"],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "sujud",
+    "terms": ["السجود", "سجود"],
+    "aliases": ["اسجد", "السجدة"],
+    "definition": "السجود موضع من مواضع الصلاة يأتي في ترتيب الصلاة بعد الركوع والرفع منه.",
+    "beginnerExplanation": "بداية يريك متى تأتي خطوة السجود وماذا بعدها.",
+    "relatedJourneyIds": ["first_prayer"],
+    "relatedStepIds": ["prayer_sujud", "prayer_second_sujud"],
+    "sourceIds": ["prh_prayer_binbaz_001"],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "rutab",
+    "terms": ["رطب", "رطبات"],
+    "aliases": ["تمر طري"],
+    "definition": "الرطب نوع من التمر الطري.",
+    "beginnerExplanation": "في الإفطار: إن تيسر الرطب فهو مذكور أولًا، ثم التمر، ثم الماء.",
+    "relatedJourneyIds": ["first_fast"],
+    "relatedStepIds": ["iftar"],
+    "sourceIds": ["prh_fasting_001"],
+    "reviewStatus": "approved"
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "qiblah",
+    "terms": ["qiblah", "qibla"],
+    "aliases": ["prayer direction", "direction of prayer"],
+    "definition": "The Qiblah is the direction a Muslim faces in prayer.",
+    "beginnerExplanation": "In this step, you face it before beginning the prayer.",
+    "relatedJourneyIds": ["first_prayer"],
+    "relatedStepIds": ["prep_qiblah"],
+    "sourceIds": ["prh_prayer_binbaz_001"],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "wudu",
+    "terms": ["wudu", "ablution"],
+    "aliases": ["purification with water", "wash before prayer"],
+    "definition": "Wudu is purification with water before prayer.",
+    "beginnerExplanation": "If this is your first time, Bidayah guides it one step at a time.",
+    "relatedJourneyIds": ["first_prayer"],
+    "relatedStepIds": ["wudu_intro", "know_wudu"],
+    "sourceIds": ["prh_wudu_001"],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "suhoor",
+    "terms": ["suhoor", "pre-dawn meal"],
+    "aliases": ["meal before fajr"],
+    "definition": "Suhoor is eating before the fast begins, before Fajr.",
+    "beginnerExplanation": "Suhoor is recommended, but it is not a condition for the fast to be valid.",
+    "relatedJourneyIds": ["first_fast"],
+    "relatedStepIds": ["suhoor"],
+    "sourceIds": ["binbaz_suhoor_001", "prh_fasting_001"],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "iftar",
+    "terms": ["iftar", "break the fast"],
+    "aliases": ["break my fast"],
+    "definition": "Iftar is breaking the fast when its time begins.",
+    "beginnerExplanation": "In the fasting journey, Iftar comes after the fasting time ends at sunset.",
+    "relatedJourneyIds": ["first_fast"],
+    "relatedStepIds": ["iftar"],
+    "sourceIds": ["prh_fasting_001"],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "rakah",
+    "terms": ["rak'ah", "rakah"],
+    "aliases": ["unit of prayer"],
+    "definition": "A rak'ah is a repeated unit in prayer within the standing, bowing, and prostration sequence.",
+    "beginnerExplanation": "In the learning demo, Bidayah walks you through two rak'ahs step by step.",
+    "relatedJourneyIds": ["first_prayer"],
+    "relatedStepIds": ["rakah_intro", "prayer_ruku", "prayer_sujud"],
+    "sourceIds": ["prh_prayer_binbaz_001"],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "ruku",
+    "terms": ["ruku", "bowing"],
+    "aliases": ["bow"],
+    "definition": "Ruku is the bowing position in prayer after standing and recitation.",
+    "beginnerExplanation": "When you reach it, follow the current step, then rise for the next step.",
+    "relatedJourneyIds": ["first_prayer"],
+    "relatedStepIds": ["prayer_ruku"],
+    "sourceIds": ["prh_prayer_binbaz_001"],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "sujud",
+    "terms": ["sujud", "prostration"],
+    "aliases": ["prostrate"],
+    "definition": "Sujud is a prostration position in the prayer sequence after bowing and rising.",
+    "beginnerExplanation": "Bidayah shows when prostration comes and what follows it.",
+    "relatedJourneyIds": ["first_prayer"],
+    "relatedStepIds": ["prayer_sujud", "prayer_second_sujud"],
+    "sourceIds": ["prh_prayer_binbaz_001"],
+    "reviewStatus": "approved"
+  },
+  {
+    "id": "rutab",
+    "terms": ["rutab", "fresh dates"],
+    "aliases": ["soft dates"],
+    "definition": "Rutab are fresh dates.",
+    "beginnerExplanation": "For Iftar: fresh dates are mentioned first when available, then dates, then water.",
+    "relatedJourneyIds": ["first_fast"],
+    "relatedStepIds": ["iftar"],
+    "sourceIds": ["prh_fasting_001"],
+    "reviewStatus": "approved"
+  }
+]

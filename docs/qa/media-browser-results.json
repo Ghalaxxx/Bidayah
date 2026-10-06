@@ -1,0 +1,233 @@
+[
+  {
+    "image": "غسل الكفين بالماء",
+    "loaded": true,
+    "overflow": false,
+    "step": "wudu_hands",
+    "warnings": false
+  },
+  {
+    "image": "أخذ الماء بالكف إلى الفم للمضمضة",
+    "loaded": true,
+    "overflow": false,
+    "step": "wudu_mouth",
+    "warnings": false
+  },
+  {
+    "image": "أخذ الماء إلى الأنف ثم إخراجه",
+    "loaded": true,
+    "overflow": false,
+    "step": "wudu_nose",
+    "warnings": false
+  },
+  {
+    "image": "غسل الوجه من منابت الشعر إلى الذقن",
+    "loaded": true,
+    "overflow": false,
+    "step": "wudu_face",
+    "warnings": false
+  },
+  {
+    "image": "غسل الذراع مع المرفق؛ ابدأ باليمنى",
+    "loaded": true,
+    "overflow": false,
+    "step": "wudu_right_arm",
+    "warnings": false
+  },
+  {
+    "image": "غسل الذراع الأخرى مع المرفق",
+    "loaded": true,
+    "overflow": false,
+    "step": "wudu_left_arm",
+    "warnings": false
+  },
+  {
+    "image": "مسح الرأس باليدين المبتلتين من الأمام للخلف والعودة",
+    "loaded": true,
+    "overflow": false,
+    "step": "wudu_head",
+    "warnings": false
+  },
+  {
+    "image": "مسح داخل الأذن بالسبابة وخارجها بالإبهام",
+    "loaded": true,
+    "overflow": false,
+    "step": "wudu_ears",
+    "warnings": false
+  },
+  {
+    "image": "غسل القدمين والكعبين والعقبين وبين الأصابع",
+    "loaded": true,
+    "overflow": false,
+    "step": "wudu_feet",
+    "warnings": false
+  },
+  {
+    "cell": "0",
+    "loaded": true,
+    "overflow": false,
+    "step": "unit_1_prayer_takbir",
+    "warnings": false
+  },
+  {
+    "cell": "1",
+    "loaded": true,
+    "overflow": false,
+    "step": "unit_1_prayer_stand",
+    "warnings": false
+  },
+  {
+    "cell": "2",
+    "loaded": true,
+    "overflow": false,
+    "step": "unit_1_prayer_ruku",
+    "warnings": false
+  },
+  {
+    "cell": "3",
+    "loaded": true,
+    "overflow": false,
+    "step": "unit_1_prayer_rise",
+    "warnings": false
+  },
+  {
+    "cell": "4",
+    "loaded": true,
+    "overflow": false,
+    "step": "unit_1_prayer_sujud",
+    "warnings": false
+  },
+  {
+    "cell": "5",
+    "loaded": true,
+    "overflow": false,
+    "step": "unit_1_prayer_sit",
+    "warnings": false
+  },
+  {
+    "cell": "4",
+    "loaded": true,
+    "overflow": false,
+    "step": "unit_1_prayer_second_sujud",
+    "warnings": false
+  },
+  {
+    "cell": "1",
+    "loaded": true,
+    "overflow": false,
+    "step": "unit_2_prayer_stand",
+    "warnings": false
+  },
+  {
+    "cell": "2",
+    "loaded": true,
+    "overflow": false,
+    "step": "unit_2_prayer_ruku",
+    "warnings": false
+  },
+  {
+    "cell": "3",
+    "loaded": true,
+    "overflow": false,
+    "step": "unit_2_prayer_rise",
+    "warnings": false
+  },
+  {
+    "cell": "4",
+    "loaded": true,
+    "overflow": false,
+    "step": "unit_2_prayer_sujud",
+    "warnings": false
+  },
+  {
+    "cell": "5",
+    "loaded": true,
+    "overflow": false,
+    "step": "unit_2_prayer_sit",
+    "warnings": false
+  },
+  {
+    "cell": "4",
+    "loaded": true,
+    "overflow": false,
+    "step": "unit_2_prayer_second_sujud",
+    "warnings": false
+  },
+  {
+    "cell": "6",
+    "loaded": true,
+    "overflow": false,
+    "step": "unit_2_prayer_tashahhud",
+    "warnings": false
+  },
+  {
+    "cell": "1",
+    "loaded": true,
+    "overflow": false,
+    "step": "unit_3_prayer_stand",
+    "warnings": false
+  },
+  {
+    "cell": "2",
+    "loaded": true,
+    "overflow": false,
+    "step": "unit_3_prayer_ruku",
+    "warnings": false
+  },
+  {
+    "cell": "3",
+    "loaded": true,
+    "overflow": false,
+    "step": "unit_3_prayer_rise",
+    "warnings": false
+  },
+  {
+    "cell": "4",
+    "loaded": true,
+    "overflow": false,
+    "step": "unit_3_prayer_sujud",
+    "warnings": false
+  },
+  {
+    "cell": "5",
+    "loaded": true,
+    "overflow": false,
+    "step": "unit_3_prayer_sit",
+    "warnings": false
+  },
+  {
+    "cell": "4",
+    "loaded": true,
+    "overflow": false,
+    "step": "unit_3_prayer_second_sujud",
+    "warnings": false
+  },
+  {
+    "cell": "7",
+    "loaded": true,
+    "overflow": false,
+    "step": "unit_3_prayer_tashahhud",
+    "warnings": false
+  },
+  {
+    "cell": "7",
+    "loaded": true,
+    "overflow": false,
+    "step": "unit_3_prayer_later_units_final",
+    "warnings": false
+  },
+  {
+    "cell": "7",
+    "loaded": true,
+    "overflow": false,
+    "step": "unit_3_prayer_final_dua",
+    "warnings": false
+  },
+  {
+    "cell": "8",
+    "loaded": true,
+    "overflow": false,
+    "step": "unit_3_prayer_taslim",
+    "warnings": false
+  }
+]

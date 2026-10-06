@@ -1,0 +1,39 @@
+{
+  "name": "bidayah-hackathon-mvp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env node_modules/vite/bin/vite.js",
+    "start": "node --env-file-if-exists=.env server/production.mjs",
+    "predev": "node scripts/build-ask-context.mjs",
+    "prebuild": "node scripts/build-ask-context.mjs",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "validate:content": "node scripts/validate-content.mjs",
+    "evaluate:product": "npm run evaluate:ask && node scripts/evaluate-ask-api.mjs && node scripts/evaluate-product.mjs && node scripts/evaluate-llm-gates.mjs && node scripts/audit-journeys.mjs && node scripts/evaluate-prayer-sequence.mjs && node scripts/evaluate-fasting-simulation.mjs && node scripts/evaluate-media.mjs",
+    "evaluate:media": "node scripts/evaluate-media.mjs",
+    "evaluate:ask": "node scripts/build-ask-context.mjs && node scripts/evaluate-ask-context.mjs",
+    "audio:prepare": "node scripts/prepare-recitation-audio.mjs",
+    "audio:publish": "node scripts/publish-recitation-audio.mjs",
+    "evaluate:fasting": "node scripts/evaluate-fasting-simulation.mjs",
+    "api": "node --env-file-if-exists=.env server/api.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "@fontsource/noto-sans-arabic": "^5.3.0",
+    "lucide-react": "^1.48.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  }
+}

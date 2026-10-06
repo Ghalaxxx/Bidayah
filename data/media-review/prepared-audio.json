@@ -1,0 +1,146 @@
+[
+  {
+    "id": "takbir",
+    "phrase": "الله أكبر",
+    "sourceId": "prh_prayer_binbaz_001",
+    "url": "/api/media-review/takbir.mp3",
+    "sha256": "aa26dc9ad38dccb45835d95d61fb180cca0bafa95b293015062d4a63cc1bb664",
+    "ranges": [
+      [
+        93.6,
+        94.94
+      ]
+    ],
+    "pronunciationReview": {
+      "status": "needs_review"
+    },
+    "rights": {
+      "status": "unknown"
+    },
+    "origin": "https://islamhouse.com/ar/audios/213201/"
+  },
+  {
+    "id": "ruku",
+    "phrase": "سبحان ربي العظيم",
+    "sourceId": "prh_prayer_binbaz_001",
+    "url": "/api/media-review/ruku.mp3",
+    "sha256": "709c5c5096bde6b574cdf9b5fb2478058859f544aa5f2dd61fc44762c6a9d1f4",
+    "ranges": [
+      [
+        192.88,
+        194.66
+      ]
+    ],
+    "pronunciationReview": {
+      "status": "needs_review"
+    },
+    "rights": {
+      "status": "unknown"
+    },
+    "origin": "https://islamhouse.com/ar/audios/213201/"
+  },
+  {
+    "id": "rise",
+    "phrase": "سمع الله لمن حمده\nربنا ولك الحمد",
+    "sourceId": "prh_prayer_binbaz_001",
+    "url": "/api/media-review/rise.mp3",
+    "sha256": "3b5f74c47cf4aaba61e2e289df21b9ce5e27d51b54d27024f30f3b75a3425fae",
+    "ranges": [
+      [
+        216.34,
+        218.06
+      ],
+      [
+        223.34,
+        225.3
+      ]
+    ],
+    "pronunciationReview": {
+      "status": "needs_review"
+    },
+    "rights": {
+      "status": "unknown"
+    },
+    "origin": "https://islamhouse.com/ar/audios/213201/"
+  },
+  {
+    "id": "sujud",
+    "phrase": "سبحان ربي الأعلى",
+    "sourceId": "prh_prayer_binbaz_001",
+    "url": "/api/media-review/sujud.mp3",
+    "sha256": "141af068533fde73ad236cff0533c00e909093b422404f2578a78beb607f3fc3",
+    "ranges": [
+      [
+        314.1,
+        316.04
+      ]
+    ],
+    "pronunciationReview": {
+      "status": "needs_review"
+    },
+    "rights": {
+      "status": "unknown"
+    },
+    "origin": "https://islamhouse.com/ar/audios/213201/"
+  },
+  {
+    "id": "second_sujud",
+    "phrase": "سبحان ربي الأعلى",
+    "sourceId": "prh_prayer_binbaz_001",
+    "url": "/api/media-review/second_sujud.mp3",
+    "sha256": "141af068533fde73ad236cff0533c00e909093b422404f2578a78beb607f3fc3",
+    "ranges": [
+      [
+        314.1,
+        316.04
+      ]
+    ],
+    "pronunciationReview": {
+      "status": "needs_review"
+    },
+    "rights": {
+      "status": "unknown"
+    },
+    "origin": "https://islamhouse.com/ar/audios/213201/"
+  },
+  {
+    "id": "tashahhud",
+    "phrase": "التحيات لله والصلوات والطيبات، السلام عليك أيها النبي ورحمة الله وبركاته، السلام علينا وعلى عباد الله الصالحين، أشهد أن لا إله إلا الله وأشهد أن محمدًا عبده ورسوله",
+    "sourceId": "prh_prayer_binbaz_001",
+    "url": "/api/media-review/tashahhud.mp3",
+    "sha256": "7c0d4a6d9b23b30d452512560324213a26c473111a974aa98772317896a94f89",
+    "ranges": [
+      [
+        563.38,
+        578.36
+      ]
+    ],
+    "pronunciationReview": {
+      "status": "needs_review"
+    },
+    "rights": {
+      "status": "unknown"
+    },
+    "origin": "https://islamhouse.com/ar/audios/213201/"
+  },
+  {
+    "id": "taslim",
+    "phrase": "السلام عليكم ورحمة الله",
+    "sourceId": "prh_prayer_binbaz_001",
+    "url": "/api/media-review/taslim.mp3",
+    "sha256": "f66b9a01d576816cf4db5daf092023e83a477c02d3d926aa2b920de5355ffd84",
+    "ranges": [
+      [
+        626.56,
+        628.88
+      ]
+    ],
+    "pronunciationReview": {
+      "status": "needs_review"
+    },
+    "rights": {
+      "status": "unknown"
+    },
+    "origin": "https://islamhouse.com/ar/audios/213201/"
+  }
+]

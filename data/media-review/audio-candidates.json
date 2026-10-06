@@ -1,0 +1,24 @@
+{
+  "recordingUrl": "https://d1.islamhouse.com/data/ar/ih_sounds/chain/ar_Rasael_Fettaharah_Wassalah/ar_BenBaz_Sefat_Salat_Annabi.mp3",
+  "recordingPage": "https://islamhouse.com/ar/audios/213201/",
+  "rightsStatus": "unknown",
+  "rightsFinding": "Publisher disclaimer paragraph 18 does not grant a copyright license. Download availability is not permission to redistribute or adapt.",
+  "rightsEvidence": "https://d1.islamhouse.com/html/disclaimer.htm",
+  "humanPronunciationApproval": false,
+  "candidates": [
+    { "id": "takbir", "ranges": [[93.60, 94.94]], "phrase": "الله أكبر" },
+    { "id": "ruku", "ranges": [[192.88, 194.66]], "phrase": "سبحان ربي العظيم" },
+    { "id": "rise", "ranges": [[216.34, 218.06], [223.34, 225.30]], "phrase": "سمع الله لمن حمده\nربنا ولك الحمد" },
+    { "id": "sujud", "ranges": [[314.10, 316.04]], "phrase": "سبحان ربي الأعلى" },
+    { "id": "second_sujud", "ranges": [[314.10, 316.04]], "phrase": "سبحان ربي الأعلى" },
+    { "id": "tashahhud", "ranges": [[563.38, 578.36]], "phrase": "التحيات لله والصلوات والطيبات، السلام عليك أيها النبي ورحمة الله وبركاته، السلام علينا وعلى عباد الله الصالحين، أشهد أن لا إله إلا الله وأشهد أن محمدًا عبده ورسوله" },
+    { "id": "taslim", "ranges": [[626.56, 628.88]], "phrase": "السلام عليكم ورحمة الله" }
+  ],
+  "withheld": [
+    { "id": "sitting", "reason": "Narrated wording/repetition/order differs from the approved paragraph-10 displayed phrase. Do not publish this clip as an exact match." },
+    { "id": "blessing", "reason": "Alignment is unreliable around the complete blessing. Requires word-by-word listening and exact phrase comparison." },
+    { "id": "final_dua", "reason": "Narrator says a different final clause than the approved displayed phrase. Do not substitute a variant." },
+    { "id": "fatihah", "reason": "Approved booklet names Al-Fatihah but does not supply its full text or a recording. No text or recitation imported from model memory." },
+    { "id": "original_speech", "reason": "Only installed English voices were found. No Arabic synthesis represented as reviewed Quran or approved pronunciation." }
+  ]
+}

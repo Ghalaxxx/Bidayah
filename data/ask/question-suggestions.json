@@ -1,0 +1,11 @@
+{
+  "prep_qiblah": {"ar":["ايش هي القبلة؟","وين أتوجه؟","لازم؟"],"en":["What is the Qiblah?","Where do I face?","Is this required?"]},
+  "suhoor": {"ar":["وش السحور؟","طيب لازم؟","متى أوقف؟"],"en":["What is Suhoor?","Do I have to?","When do I stop?"]},
+  "iftar": {"ar":["الحين آكل؟","أفطر على ايش؟","كم تمرة؟"],"en":["Can I eat now?","What should I break with?","How many dates?"]},
+  "prayer_ruku": {"ar":["وش الركوع؟","الحين وش؟","وش أقول؟"],"en":["What is bowing?","What now?","What do I say?"]},
+  "prayer_sujud": {"ar":["وش السجود؟","الحين وش؟","وش أقول؟"],"en":["What is prostration?","What now?","What do I say?"]},
+  "rakah_intro": {"ar":["وش يعني ركعة؟","كم ركعة؟"],"en":["What is a rak'ah?","How many units?"]},
+  "wudu_hands": {"ar":["كم مرة أغسل كفي؟"],"en":["How many times do I wash my hands?"]},
+  "wudu_head": {"ar":["كيف أمسح رأسي؟"],"en":["How do I wipe my head?"]},
+  "wudu_ears": {"ar":["ماء جديد؟"],"en":["New water?"]}
+}

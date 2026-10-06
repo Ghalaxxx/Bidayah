@@ -1,0 +1,52 @@
+[
+  {
+    "id": "prh_wudu_001",
+    "organizationAr": "رئاسة الشؤون الدينية بالمسجد الحرام والمسجد النبوي",
+    "organizationEn": "Presidency of Religious Affairs at the Grand Mosque and the Prophet's Mosque",
+    "platformAr": "رسالة الحرمين",
+    "platformEn": "Risalat Al-Haramain",
+    "titleAr": "صفة الوضوء",
+    "titleEn": "How to Perform Wudu",
+    "url": "https://risala.prh.gov.sa/ar/content/514",
+    "sourceType": "official_guidance",
+    "verified": true
+  },
+  {
+    "id": "prh_prayer_binbaz_001",
+    "organizationAr": "رئاسة الشؤون الدينية بالمسجد الحرام والمسجد النبوي",
+    "organizationEn": "Presidency of Religious Affairs at the Grand Mosque and the Prophet's Mosque",
+    "platformAr": "رسالة الحرمين",
+    "platformEn": "Risalat Al-Haramain",
+    "titleAr": "كيفية صلاة النبي ﷺ",
+    "titleEn": "How the Prophet Prayed",
+    "authorAr": "الشيخ عبد العزيز بن عبد الله بن باز",
+    "authorEn": "Sheikh Abdulaziz bin Abdullah bin Baz",
+    "url": "https://risala.prh.gov.sa/ar/content/106",
+    "sourceType": "official_guidance",
+    "verified": true
+  },
+  {
+    "id": "prh_fasting_001",
+    "organizationAr": "رئاسة الشؤون الدينية بالمسجد الحرام والمسجد النبوي",
+    "organizationEn": "Presidency of Religious Affairs at the Grand Mosque and the Prophet's Mosque",
+    "platformAr": "رسالة الحرمين",
+    "platformEn": "Risalat Al-Haramain",
+    "titleAr": "من أحكام الصيام",
+    "titleEn": "Some Rulings of Fasting",
+    "authorAr": "اللجنة العلمية برئاسة الشؤون الدينية بالمسجد الحرام والمسجد النبوي",
+    "authorEn": "Scientific Committee under the Presidency of Religious Affairs at the Grand Mosque and the Prophet's Mosque",
+    "url": "https://risala.prh.gov.sa/ar/content/252",
+    "sourceType": "official_guidance",
+    "verified": true
+  },
+  {
+    "id": "binbaz_suhoor_001",
+    "organizationAr": "الموقع الرسمي لسماحة الشيخ عبد العزيز بن باز",
+    "organizationEn": "Official website of Sheikh Abdulaziz Ibn Baz",
+    "titleAr": "السحور ليس شرطًا في صحة الصيام",
+    "titleEn": "Suhoor is not a condition for the validity of fasting",
+    "url": "https://binbaz.org.sa/fatwas/12275/",
+    "sourceType": "fatwa",
+    "verified": true
+  }
+]

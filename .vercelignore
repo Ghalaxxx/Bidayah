@@ -1,0 +1,12 @@
+node_modules/
+dist/
+backups/
+.git/
+.env
+.env.*
+!.env.example
+docs/
+data/sources/
+data/media-review/
+__pycache__/
+*.log

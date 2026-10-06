@@ -1,0 +1,3707 @@
+{
+  "first_prayer": {
+    "fajr": [
+      {
+        "id": "prayer_intro",
+        "subjectStep": "prayer_intro",
+        "journeyId": "first_prayer",
+        "stageId": "intro",
+        "title": {
+          "ar": "سنجهزك قبل الصلاة",
+          "en": "We will prepare you before prayer"
+        },
+        "next": "know_wudu"
+      },
+      {
+        "id": "know_wudu",
+        "subjectStep": "know_wudu",
+        "journeyId": "first_prayer",
+        "stageId": "readiness",
+        "title": {
+          "ar": "هل تعرف كيف تتوضأ؟",
+          "en": "Do you know how to perform Wudu?"
+        }
+      },
+      {
+        "id": "in_wudu",
+        "subjectStep": "in_wudu",
+        "journeyId": "first_prayer",
+        "stageId": "readiness",
+        "title": {
+          "ar": "هل أنت متوضئ الآن؟",
+          "en": "Are you currently in Wudu?"
+        }
+      },
+      {
+        "id": "prep_location",
+        "subjectStep": "prep_location",
+        "journeyId": "first_prayer",
+        "stageId": "preparation",
+        "title": {
+          "ar": "أين ستصلي؟",
+          "en": "Where will you pray?"
+        }
+      },
+      {
+        "id": "prep_qiblah",
+        "subjectStep": "prep_qiblah",
+        "journeyId": "first_prayer",
+        "stageId": "preparation",
+        "title": {
+          "ar": "استقبل القبلة",
+          "en": "Face the Qiblah"
+        },
+        "next": "prayer_selection"
+      },
+      {
+        "id": "prayer_selection",
+        "subjectStep": "prayer_selection",
+        "journeyId": "first_prayer",
+        "stageId": "preparation",
+        "title": {
+          "ar": "أي صلاة تستعد لها؟",
+          "en": "Which prayer are you preparing for?"
+        }
+      },
+      {
+        "id": "rakah_intro",
+        "subjectStep": "rakah_intro",
+        "journeyId": "first_prayer",
+        "stageId": "preparation",
+        "title": {
+          "ar": "ما معنى ركعة؟",
+          "en": "What is a rak'ah?"
+        },
+        "next": "pre_prayer_review"
+      },
+      {
+        "id": "pre_prayer_review",
+        "subjectStep": "pre_prayer_review",
+        "journeyId": "first_prayer",
+        "stageId": "preparation",
+        "title": {
+          "ar": "قبل أن تبدأ",
+          "en": "Before you begin"
+        },
+        "next": "unit_1_prayer_takbir"
+      },
+      {
+        "id": "prayer_ready",
+        "subjectStep": "prayer_ready",
+        "journeyId": "first_prayer",
+        "stageId": "ready",
+        "title": {
+          "ar": "أنت جاهز للصلاة",
+          "en": "You are ready to pray"
+        },
+        "next": "phone_aside_start"
+      },
+      {
+        "id": "phone_aside_start",
+        "subjectStep": "phone_aside_start",
+        "journeyId": "first_prayer",
+        "stageId": "ready",
+        "title": {
+          "ar": "ضع الهاتف جانبًا وابدأ الصلاة",
+          "en": "Put the phone aside and begin the prayer"
+        }
+      },
+      {
+        "id": "prayer_takbir",
+        "subjectStep": "prayer_takbir",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم بداية الصلاة",
+          "en": "Learn the beginning of prayer"
+        },
+        "next": "prayer_stand"
+      },
+      {
+        "id": "prayer_stand",
+        "subjectStep": "prayer_stand",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "القيام والقراءة",
+          "en": "Standing and recitation"
+        },
+        "next": "prayer_ruku"
+      },
+      {
+        "id": "prayer_ruku",
+        "subjectStep": "prayer_ruku",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الركوع",
+          "en": "Learn bowing"
+        },
+        "next": "prayer_rise"
+      },
+      {
+        "id": "prayer_rise",
+        "subjectStep": "prayer_rise",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الرفع من الركوع",
+          "en": "Learn rising from bowing"
+        },
+        "next": "prayer_sujud"
+      },
+      {
+        "id": "prayer_sujud",
+        "subjectStep": "prayer_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم السجود",
+          "en": "Learn prostration"
+        },
+        "next": "prayer_sit"
+      },
+      {
+        "id": "prayer_sit",
+        "subjectStep": "prayer_sit",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الجلوس بين السجدتين",
+          "en": "Learn sitting between prostrations"
+        },
+        "next": "prayer_second_sujud"
+      },
+      {
+        "id": "prayer_second_sujud",
+        "subjectStep": "prayer_second_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "السجدة الثانية",
+          "en": "Second prostration"
+        },
+        "next": "prayer_demo_transition"
+      },
+      {
+        "id": "prayer_demo_transition",
+        "subjectStep": "prayer_demo_transition",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "إكمال الركعات",
+          "en": "Complete the rak'ahs"
+        },
+        "next": "prayer_tashahhud"
+      },
+      {
+        "id": "prayer_taslim",
+        "subjectStep": "prayer_taslim",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم ختام الصلاة",
+          "en": "Learn the end of prayer"
+        },
+        "next": "learning_ready"
+      },
+      {
+        "id": "learning_ready",
+        "subjectStep": "learning_ready",
+        "journeyId": "first_prayer",
+        "stageId": "ready",
+        "title": {
+          "ar": "جاهز تبدأ؟",
+          "en": "Ready to begin?"
+        }
+      },
+      {
+        "id": "prayer_done",
+        "subjectStep": "prayer_done",
+        "journeyId": "first_prayer",
+        "stageId": "completion",
+        "title": {
+          "ar": "تمت رحلتك الأولى",
+          "en": "Your first prayer journey is complete"
+        }
+      },
+      {
+        "id": "prayer_final_dua",
+        "subjectStep": "prayer_final_dua",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الدعاء قبل التسليم",
+          "en": "Supplication before Taslim"
+        },
+        "next": "prayer_taslim"
+      },
+      {
+        "id": "prayer_tashahhud",
+        "subjectStep": "prayer_tashahhud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الجلوس بعد الركعة الثانية",
+          "en": "Sitting after the second unit"
+        },
+        "next": "prayer_later_units"
+      },
+      {
+        "id": "prayer_later_units",
+        "subjectStep": "prayer_later_units",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الركعات الباقية والجلوس الأخير",
+          "en": "Remaining units and final sitting"
+        },
+        "next": "prayer_taslim"
+      },
+      {
+        "id": "wudu_intro",
+        "subjectStep": "wudu_intro",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "الوضوء",
+          "en": "Wudu"
+        },
+        "next": "wudu_hands"
+      },
+      {
+        "id": "wudu_hands",
+        "subjectStep": "wudu_hands",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "اغسل كفيك",
+          "en": "Wash your hands"
+        },
+        "next": "wudu_mouth"
+      },
+      {
+        "id": "wudu_mouth",
+        "subjectStep": "wudu_mouth",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "المضمضة",
+          "en": "Rinse your mouth"
+        },
+        "next": "wudu_nose"
+      },
+      {
+        "id": "wudu_nose",
+        "subjectStep": "wudu_nose",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "الاستنشاق",
+          "en": "Rinse your nose"
+        },
+        "next": "wudu_face"
+      },
+      {
+        "id": "wudu_face",
+        "subjectStep": "wudu_face",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "اغسل وجهك",
+          "en": "Wash your face"
+        },
+        "next": "wudu_right_arm"
+      },
+      {
+        "id": "wudu_right_arm",
+        "subjectStep": "wudu_right_arm",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "اغسل يدك اليمنى",
+          "en": "Wash your right arm"
+        },
+        "next": "wudu_left_arm"
+      },
+      {
+        "id": "wudu_left_arm",
+        "subjectStep": "wudu_left_arm",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "اغسل يدك اليسرى",
+          "en": "Wash your left arm"
+        },
+        "next": "wudu_head"
+      },
+      {
+        "id": "wudu_head",
+        "subjectStep": "wudu_head",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "امسح رأسك",
+          "en": "Wipe your head"
+        },
+        "next": "wudu_ears"
+      },
+      {
+        "id": "wudu_ears",
+        "subjectStep": "wudu_ears",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "امسح أذنيك",
+          "en": "Wipe your ears"
+        },
+        "next": "wudu_feet"
+      },
+      {
+        "id": "wudu_feet",
+        "subjectStep": "wudu_feet",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "اغسل قدميك",
+          "en": "Wash your feet"
+        },
+        "next": "wudu_complete"
+      },
+      {
+        "id": "wudu_complete",
+        "subjectStep": "wudu_complete",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "تم الوضوء",
+          "en": "Wudu complete"
+        },
+        "next": "prep_location"
+      },
+      {
+        "id": "unit_1_prayer_takbir",
+        "subjectStep": "prayer_takbir",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم بداية الصلاة",
+          "en": "Learn the beginning of prayer"
+        },
+        "next": "unit_1_prayer_stand",
+        "unitNumber": 1,
+        "totalUnits": 2
+      },
+      {
+        "id": "unit_1_prayer_stand",
+        "subjectStep": "prayer_stand",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "القيام والقراءة",
+          "en": "Standing and recitation"
+        },
+        "next": "unit_1_prayer_ruku",
+        "unitNumber": 1,
+        "totalUnits": 2
+      },
+      {
+        "id": "unit_1_prayer_ruku",
+        "subjectStep": "prayer_ruku",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الركوع",
+          "en": "Learn bowing"
+        },
+        "next": "unit_1_prayer_rise",
+        "unitNumber": 1,
+        "totalUnits": 2
+      },
+      {
+        "id": "unit_1_prayer_rise",
+        "subjectStep": "prayer_rise",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الرفع من الركوع",
+          "en": "Learn rising from bowing"
+        },
+        "next": "unit_1_prayer_sujud",
+        "unitNumber": 1,
+        "totalUnits": 2
+      },
+      {
+        "id": "unit_1_prayer_sujud",
+        "subjectStep": "prayer_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم السجود",
+          "en": "Learn prostration"
+        },
+        "next": "unit_1_prayer_sit",
+        "unitNumber": 1,
+        "totalUnits": 2
+      },
+      {
+        "id": "unit_1_prayer_sit",
+        "subjectStep": "prayer_sit",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الجلوس بين السجدتين",
+          "en": "Learn sitting between prostrations"
+        },
+        "next": "unit_1_prayer_second_sujud",
+        "unitNumber": 1,
+        "totalUnits": 2
+      },
+      {
+        "id": "unit_1_prayer_second_sujud",
+        "subjectStep": "prayer_second_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "السجدة الثانية",
+          "en": "Second prostration"
+        },
+        "next": "unit_2_prayer_stand",
+        "unitNumber": 1,
+        "totalUnits": 2
+      },
+      {
+        "id": "unit_2_prayer_stand",
+        "subjectStep": "prayer_stand",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "القيام والقراءة",
+          "en": "Standing and recitation"
+        },
+        "next": "unit_2_prayer_ruku",
+        "unitNumber": 2,
+        "totalUnits": 2
+      },
+      {
+        "id": "unit_2_prayer_ruku",
+        "subjectStep": "prayer_ruku",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الركوع",
+          "en": "Learn bowing"
+        },
+        "next": "unit_2_prayer_rise",
+        "unitNumber": 2,
+        "totalUnits": 2
+      },
+      {
+        "id": "unit_2_prayer_rise",
+        "subjectStep": "prayer_rise",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الرفع من الركوع",
+          "en": "Learn rising from bowing"
+        },
+        "next": "unit_2_prayer_sujud",
+        "unitNumber": 2,
+        "totalUnits": 2
+      },
+      {
+        "id": "unit_2_prayer_sujud",
+        "subjectStep": "prayer_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم السجود",
+          "en": "Learn prostration"
+        },
+        "next": "unit_2_prayer_sit",
+        "unitNumber": 2,
+        "totalUnits": 2
+      },
+      {
+        "id": "unit_2_prayer_sit",
+        "subjectStep": "prayer_sit",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الجلوس بين السجدتين",
+          "en": "Learn sitting between prostrations"
+        },
+        "next": "unit_2_prayer_second_sujud",
+        "unitNumber": 2,
+        "totalUnits": 2
+      },
+      {
+        "id": "unit_2_prayer_second_sujud",
+        "subjectStep": "prayer_second_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "السجدة الثانية",
+          "en": "Second prostration"
+        },
+        "next": "unit_2_prayer_tashahhud",
+        "unitNumber": 2,
+        "totalUnits": 2
+      },
+      {
+        "id": "unit_2_prayer_tashahhud",
+        "subjectStep": "prayer_tashahhud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الجلوس بعد الركعة الثانية",
+          "en": "Sitting after the second unit"
+        },
+        "next": "unit_2_prayer_later_units_final",
+        "unitNumber": 2,
+        "totalUnits": 2
+      },
+      {
+        "id": "unit_2_prayer_later_units_final",
+        "subjectStep": "prayer_later_units",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الجلوس الأخير والصلاة على النبي",
+          "en": "Final sitting and blessing on the Prophet"
+        },
+        "next": "unit_2_prayer_final_dua",
+        "unitNumber": 2,
+        "totalUnits": 2
+      },
+      {
+        "id": "unit_2_prayer_final_dua",
+        "subjectStep": "prayer_final_dua",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الدعاء قبل التسليم",
+          "en": "Supplication before Taslim"
+        },
+        "next": "unit_2_prayer_taslim",
+        "unitNumber": 2,
+        "totalUnits": 2
+      },
+      {
+        "id": "unit_2_prayer_taslim",
+        "subjectStep": "prayer_taslim",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم ختام الصلاة",
+          "en": "Learn the end of prayer"
+        },
+        "next": "learning_ready",
+        "unitNumber": 2,
+        "totalUnits": 2
+      }
+    ],
+    "dhuhr": [
+      {
+        "id": "prayer_intro",
+        "subjectStep": "prayer_intro",
+        "journeyId": "first_prayer",
+        "stageId": "intro",
+        "title": {
+          "ar": "سنجهزك قبل الصلاة",
+          "en": "We will prepare you before prayer"
+        },
+        "next": "know_wudu"
+      },
+      {
+        "id": "know_wudu",
+        "subjectStep": "know_wudu",
+        "journeyId": "first_prayer",
+        "stageId": "readiness",
+        "title": {
+          "ar": "هل تعرف كيف تتوضأ؟",
+          "en": "Do you know how to perform Wudu?"
+        }
+      },
+      {
+        "id": "in_wudu",
+        "subjectStep": "in_wudu",
+        "journeyId": "first_prayer",
+        "stageId": "readiness",
+        "title": {
+          "ar": "هل أنت متوضئ الآن؟",
+          "en": "Are you currently in Wudu?"
+        }
+      },
+      {
+        "id": "prep_location",
+        "subjectStep": "prep_location",
+        "journeyId": "first_prayer",
+        "stageId": "preparation",
+        "title": {
+          "ar": "أين ستصلي؟",
+          "en": "Where will you pray?"
+        }
+      },
+      {
+        "id": "prep_qiblah",
+        "subjectStep": "prep_qiblah",
+        "journeyId": "first_prayer",
+        "stageId": "preparation",
+        "title": {
+          "ar": "استقبل القبلة",
+          "en": "Face the Qiblah"
+        },
+        "next": "prayer_selection"
+      },
+      {
+        "id": "prayer_selection",
+        "subjectStep": "prayer_selection",
+        "journeyId": "first_prayer",
+        "stageId": "preparation",
+        "title": {
+          "ar": "أي صلاة تستعد لها؟",
+          "en": "Which prayer are you preparing for?"
+        }
+      },
+      {
+        "id": "rakah_intro",
+        "subjectStep": "rakah_intro",
+        "journeyId": "first_prayer",
+        "stageId": "preparation",
+        "title": {
+          "ar": "ما معنى ركعة؟",
+          "en": "What is a rak'ah?"
+        },
+        "next": "pre_prayer_review"
+      },
+      {
+        "id": "pre_prayer_review",
+        "subjectStep": "pre_prayer_review",
+        "journeyId": "first_prayer",
+        "stageId": "preparation",
+        "title": {
+          "ar": "قبل أن تبدأ",
+          "en": "Before you begin"
+        },
+        "next": "unit_1_prayer_takbir"
+      },
+      {
+        "id": "prayer_ready",
+        "subjectStep": "prayer_ready",
+        "journeyId": "first_prayer",
+        "stageId": "ready",
+        "title": {
+          "ar": "أنت جاهز للصلاة",
+          "en": "You are ready to pray"
+        },
+        "next": "phone_aside_start"
+      },
+      {
+        "id": "phone_aside_start",
+        "subjectStep": "phone_aside_start",
+        "journeyId": "first_prayer",
+        "stageId": "ready",
+        "title": {
+          "ar": "ضع الهاتف جانبًا وابدأ الصلاة",
+          "en": "Put the phone aside and begin the prayer"
+        }
+      },
+      {
+        "id": "prayer_takbir",
+        "subjectStep": "prayer_takbir",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم بداية الصلاة",
+          "en": "Learn the beginning of prayer"
+        },
+        "next": "prayer_stand"
+      },
+      {
+        "id": "prayer_stand",
+        "subjectStep": "prayer_stand",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "القيام والقراءة",
+          "en": "Standing and recitation"
+        },
+        "next": "prayer_ruku"
+      },
+      {
+        "id": "prayer_ruku",
+        "subjectStep": "prayer_ruku",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الركوع",
+          "en": "Learn bowing"
+        },
+        "next": "prayer_rise"
+      },
+      {
+        "id": "prayer_rise",
+        "subjectStep": "prayer_rise",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الرفع من الركوع",
+          "en": "Learn rising from bowing"
+        },
+        "next": "prayer_sujud"
+      },
+      {
+        "id": "prayer_sujud",
+        "subjectStep": "prayer_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم السجود",
+          "en": "Learn prostration"
+        },
+        "next": "prayer_sit"
+      },
+      {
+        "id": "prayer_sit",
+        "subjectStep": "prayer_sit",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الجلوس بين السجدتين",
+          "en": "Learn sitting between prostrations"
+        },
+        "next": "prayer_second_sujud"
+      },
+      {
+        "id": "prayer_second_sujud",
+        "subjectStep": "prayer_second_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "السجدة الثانية",
+          "en": "Second prostration"
+        },
+        "next": "prayer_demo_transition"
+      },
+      {
+        "id": "prayer_demo_transition",
+        "subjectStep": "prayer_demo_transition",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "إكمال الركعات",
+          "en": "Complete the rak'ahs"
+        },
+        "next": "prayer_tashahhud"
+      },
+      {
+        "id": "prayer_taslim",
+        "subjectStep": "prayer_taslim",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم ختام الصلاة",
+          "en": "Learn the end of prayer"
+        },
+        "next": "learning_ready"
+      },
+      {
+        "id": "learning_ready",
+        "subjectStep": "learning_ready",
+        "journeyId": "first_prayer",
+        "stageId": "ready",
+        "title": {
+          "ar": "جاهز تبدأ؟",
+          "en": "Ready to begin?"
+        }
+      },
+      {
+        "id": "prayer_done",
+        "subjectStep": "prayer_done",
+        "journeyId": "first_prayer",
+        "stageId": "completion",
+        "title": {
+          "ar": "تمت رحلتك الأولى",
+          "en": "Your first prayer journey is complete"
+        }
+      },
+      {
+        "id": "prayer_final_dua",
+        "subjectStep": "prayer_final_dua",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الدعاء قبل التسليم",
+          "en": "Supplication before Taslim"
+        },
+        "next": "prayer_taslim"
+      },
+      {
+        "id": "prayer_tashahhud",
+        "subjectStep": "prayer_tashahhud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الجلوس بعد الركعة الثانية",
+          "en": "Sitting after the second unit"
+        },
+        "next": "prayer_later_units"
+      },
+      {
+        "id": "prayer_later_units",
+        "subjectStep": "prayer_later_units",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الركعات الباقية والجلوس الأخير",
+          "en": "Remaining units and final sitting"
+        },
+        "next": "prayer_taslim"
+      },
+      {
+        "id": "wudu_intro",
+        "subjectStep": "wudu_intro",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "الوضوء",
+          "en": "Wudu"
+        },
+        "next": "wudu_hands"
+      },
+      {
+        "id": "wudu_hands",
+        "subjectStep": "wudu_hands",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "اغسل كفيك",
+          "en": "Wash your hands"
+        },
+        "next": "wudu_mouth"
+      },
+      {
+        "id": "wudu_mouth",
+        "subjectStep": "wudu_mouth",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "المضمضة",
+          "en": "Rinse your mouth"
+        },
+        "next": "wudu_nose"
+      },
+      {
+        "id": "wudu_nose",
+        "subjectStep": "wudu_nose",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "الاستنشاق",
+          "en": "Rinse your nose"
+        },
+        "next": "wudu_face"
+      },
+      {
+        "id": "wudu_face",
+        "subjectStep": "wudu_face",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "اغسل وجهك",
+          "en": "Wash your face"
+        },
+        "next": "wudu_right_arm"
+      },
+      {
+        "id": "wudu_right_arm",
+        "subjectStep": "wudu_right_arm",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "اغسل يدك اليمنى",
+          "en": "Wash your right arm"
+        },
+        "next": "wudu_left_arm"
+      },
+      {
+        "id": "wudu_left_arm",
+        "subjectStep": "wudu_left_arm",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "اغسل يدك اليسرى",
+          "en": "Wash your left arm"
+        },
+        "next": "wudu_head"
+      },
+      {
+        "id": "wudu_head",
+        "subjectStep": "wudu_head",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "امسح رأسك",
+          "en": "Wipe your head"
+        },
+        "next": "wudu_ears"
+      },
+      {
+        "id": "wudu_ears",
+        "subjectStep": "wudu_ears",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "امسح أذنيك",
+          "en": "Wipe your ears"
+        },
+        "next": "wudu_feet"
+      },
+      {
+        "id": "wudu_feet",
+        "subjectStep": "wudu_feet",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "اغسل قدميك",
+          "en": "Wash your feet"
+        },
+        "next": "wudu_complete"
+      },
+      {
+        "id": "wudu_complete",
+        "subjectStep": "wudu_complete",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "تم الوضوء",
+          "en": "Wudu complete"
+        },
+        "next": "prep_location"
+      },
+      {
+        "id": "unit_1_prayer_takbir",
+        "subjectStep": "prayer_takbir",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم بداية الصلاة",
+          "en": "Learn the beginning of prayer"
+        },
+        "next": "unit_1_prayer_stand",
+        "unitNumber": 1,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_1_prayer_stand",
+        "subjectStep": "prayer_stand",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "القيام والقراءة",
+          "en": "Standing and recitation"
+        },
+        "next": "unit_1_prayer_ruku",
+        "unitNumber": 1,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_1_prayer_ruku",
+        "subjectStep": "prayer_ruku",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الركوع",
+          "en": "Learn bowing"
+        },
+        "next": "unit_1_prayer_rise",
+        "unitNumber": 1,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_1_prayer_rise",
+        "subjectStep": "prayer_rise",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الرفع من الركوع",
+          "en": "Learn rising from bowing"
+        },
+        "next": "unit_1_prayer_sujud",
+        "unitNumber": 1,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_1_prayer_sujud",
+        "subjectStep": "prayer_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم السجود",
+          "en": "Learn prostration"
+        },
+        "next": "unit_1_prayer_sit",
+        "unitNumber": 1,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_1_prayer_sit",
+        "subjectStep": "prayer_sit",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الجلوس بين السجدتين",
+          "en": "Learn sitting between prostrations"
+        },
+        "next": "unit_1_prayer_second_sujud",
+        "unitNumber": 1,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_1_prayer_second_sujud",
+        "subjectStep": "prayer_second_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "السجدة الثانية",
+          "en": "Second prostration"
+        },
+        "next": "unit_2_prayer_stand",
+        "unitNumber": 1,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_2_prayer_stand",
+        "subjectStep": "prayer_stand",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "القيام والقراءة",
+          "en": "Standing and recitation"
+        },
+        "next": "unit_2_prayer_ruku",
+        "unitNumber": 2,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_2_prayer_ruku",
+        "subjectStep": "prayer_ruku",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الركوع",
+          "en": "Learn bowing"
+        },
+        "next": "unit_2_prayer_rise",
+        "unitNumber": 2,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_2_prayer_rise",
+        "subjectStep": "prayer_rise",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الرفع من الركوع",
+          "en": "Learn rising from bowing"
+        },
+        "next": "unit_2_prayer_sujud",
+        "unitNumber": 2,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_2_prayer_sujud",
+        "subjectStep": "prayer_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم السجود",
+          "en": "Learn prostration"
+        },
+        "next": "unit_2_prayer_sit",
+        "unitNumber": 2,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_2_prayer_sit",
+        "subjectStep": "prayer_sit",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الجلوس بين السجدتين",
+          "en": "Learn sitting between prostrations"
+        },
+        "next": "unit_2_prayer_second_sujud",
+        "unitNumber": 2,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_2_prayer_second_sujud",
+        "subjectStep": "prayer_second_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "السجدة الثانية",
+          "en": "Second prostration"
+        },
+        "next": "unit_2_prayer_tashahhud",
+        "unitNumber": 2,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_2_prayer_tashahhud",
+        "subjectStep": "prayer_tashahhud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الجلوس بعد الركعة الثانية",
+          "en": "Sitting after the second unit"
+        },
+        "next": "unit_3_prayer_stand",
+        "unitNumber": 2,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_3_prayer_stand",
+        "subjectStep": "prayer_stand",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "القيام والقراءة",
+          "en": "Standing and recitation"
+        },
+        "next": "unit_3_prayer_ruku",
+        "unitNumber": 3,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_3_prayer_ruku",
+        "subjectStep": "prayer_ruku",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الركوع",
+          "en": "Learn bowing"
+        },
+        "next": "unit_3_prayer_rise",
+        "unitNumber": 3,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_3_prayer_rise",
+        "subjectStep": "prayer_rise",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الرفع من الركوع",
+          "en": "Learn rising from bowing"
+        },
+        "next": "unit_3_prayer_sujud",
+        "unitNumber": 3,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_3_prayer_sujud",
+        "subjectStep": "prayer_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم السجود",
+          "en": "Learn prostration"
+        },
+        "next": "unit_3_prayer_sit",
+        "unitNumber": 3,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_3_prayer_sit",
+        "subjectStep": "prayer_sit",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الجلوس بين السجدتين",
+          "en": "Learn sitting between prostrations"
+        },
+        "next": "unit_3_prayer_second_sujud",
+        "unitNumber": 3,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_3_prayer_second_sujud",
+        "subjectStep": "prayer_second_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "السجدة الثانية",
+          "en": "Second prostration"
+        },
+        "next": "unit_4_prayer_stand",
+        "unitNumber": 3,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_stand",
+        "subjectStep": "prayer_stand",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "القيام والقراءة",
+          "en": "Standing and recitation"
+        },
+        "next": "unit_4_prayer_ruku",
+        "unitNumber": 4,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_ruku",
+        "subjectStep": "prayer_ruku",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الركوع",
+          "en": "Learn bowing"
+        },
+        "next": "unit_4_prayer_rise",
+        "unitNumber": 4,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_rise",
+        "subjectStep": "prayer_rise",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الرفع من الركوع",
+          "en": "Learn rising from bowing"
+        },
+        "next": "unit_4_prayer_sujud",
+        "unitNumber": 4,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_sujud",
+        "subjectStep": "prayer_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم السجود",
+          "en": "Learn prostration"
+        },
+        "next": "unit_4_prayer_sit",
+        "unitNumber": 4,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_sit",
+        "subjectStep": "prayer_sit",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الجلوس بين السجدتين",
+          "en": "Learn sitting between prostrations"
+        },
+        "next": "unit_4_prayer_second_sujud",
+        "unitNumber": 4,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_second_sujud",
+        "subjectStep": "prayer_second_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "السجدة الثانية",
+          "en": "Second prostration"
+        },
+        "next": "unit_4_prayer_tashahhud",
+        "unitNumber": 4,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_tashahhud",
+        "subjectStep": "prayer_tashahhud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "التشهد الأخير",
+          "en": "Final Tashahhud"
+        },
+        "next": "unit_4_prayer_later_units_final",
+        "unitNumber": 4,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_later_units_final",
+        "subjectStep": "prayer_later_units",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الجلوس الأخير والصلاة على النبي",
+          "en": "Final sitting and blessing on the Prophet"
+        },
+        "next": "unit_4_prayer_final_dua",
+        "unitNumber": 4,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_final_dua",
+        "subjectStep": "prayer_final_dua",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الدعاء قبل التسليم",
+          "en": "Supplication before Taslim"
+        },
+        "next": "unit_4_prayer_taslim",
+        "unitNumber": 4,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_taslim",
+        "subjectStep": "prayer_taslim",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم ختام الصلاة",
+          "en": "Learn the end of prayer"
+        },
+        "next": "learning_ready",
+        "unitNumber": 4,
+        "totalUnits": 4
+      }
+    ],
+    "asr": [
+      {
+        "id": "prayer_intro",
+        "subjectStep": "prayer_intro",
+        "journeyId": "first_prayer",
+        "stageId": "intro",
+        "title": {
+          "ar": "سنجهزك قبل الصلاة",
+          "en": "We will prepare you before prayer"
+        },
+        "next": "know_wudu"
+      },
+      {
+        "id": "know_wudu",
+        "subjectStep": "know_wudu",
+        "journeyId": "first_prayer",
+        "stageId": "readiness",
+        "title": {
+          "ar": "هل تعرف كيف تتوضأ؟",
+          "en": "Do you know how to perform Wudu?"
+        }
+      },
+      {
+        "id": "in_wudu",
+        "subjectStep": "in_wudu",
+        "journeyId": "first_prayer",
+        "stageId": "readiness",
+        "title": {
+          "ar": "هل أنت متوضئ الآن؟",
+          "en": "Are you currently in Wudu?"
+        }
+      },
+      {
+        "id": "prep_location",
+        "subjectStep": "prep_location",
+        "journeyId": "first_prayer",
+        "stageId": "preparation",
+        "title": {
+          "ar": "أين ستصلي؟",
+          "en": "Where will you pray?"
+        }
+      },
+      {
+        "id": "prep_qiblah",
+        "subjectStep": "prep_qiblah",
+        "journeyId": "first_prayer",
+        "stageId": "preparation",
+        "title": {
+          "ar": "استقبل القبلة",
+          "en": "Face the Qiblah"
+        },
+        "next": "prayer_selection"
+      },
+      {
+        "id": "prayer_selection",
+        "subjectStep": "prayer_selection",
+        "journeyId": "first_prayer",
+        "stageId": "preparation",
+        "title": {
+          "ar": "أي صلاة تستعد لها؟",
+          "en": "Which prayer are you preparing for?"
+        }
+      },
+      {
+        "id": "rakah_intro",
+        "subjectStep": "rakah_intro",
+        "journeyId": "first_prayer",
+        "stageId": "preparation",
+        "title": {
+          "ar": "ما معنى ركعة؟",
+          "en": "What is a rak'ah?"
+        },
+        "next": "pre_prayer_review"
+      },
+      {
+        "id": "pre_prayer_review",
+        "subjectStep": "pre_prayer_review",
+        "journeyId": "first_prayer",
+        "stageId": "preparation",
+        "title": {
+          "ar": "قبل أن تبدأ",
+          "en": "Before you begin"
+        },
+        "next": "unit_1_prayer_takbir"
+      },
+      {
+        "id": "prayer_ready",
+        "subjectStep": "prayer_ready",
+        "journeyId": "first_prayer",
+        "stageId": "ready",
+        "title": {
+          "ar": "أنت جاهز للصلاة",
+          "en": "You are ready to pray"
+        },
+        "next": "phone_aside_start"
+      },
+      {
+        "id": "phone_aside_start",
+        "subjectStep": "phone_aside_start",
+        "journeyId": "first_prayer",
+        "stageId": "ready",
+        "title": {
+          "ar": "ضع الهاتف جانبًا وابدأ الصلاة",
+          "en": "Put the phone aside and begin the prayer"
+        }
+      },
+      {
+        "id": "prayer_takbir",
+        "subjectStep": "prayer_takbir",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم بداية الصلاة",
+          "en": "Learn the beginning of prayer"
+        },
+        "next": "prayer_stand"
+      },
+      {
+        "id": "prayer_stand",
+        "subjectStep": "prayer_stand",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "القيام والقراءة",
+          "en": "Standing and recitation"
+        },
+        "next": "prayer_ruku"
+      },
+      {
+        "id": "prayer_ruku",
+        "subjectStep": "prayer_ruku",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الركوع",
+          "en": "Learn bowing"
+        },
+        "next": "prayer_rise"
+      },
+      {
+        "id": "prayer_rise",
+        "subjectStep": "prayer_rise",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الرفع من الركوع",
+          "en": "Learn rising from bowing"
+        },
+        "next": "prayer_sujud"
+      },
+      {
+        "id": "prayer_sujud",
+        "subjectStep": "prayer_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم السجود",
+          "en": "Learn prostration"
+        },
+        "next": "prayer_sit"
+      },
+      {
+        "id": "prayer_sit",
+        "subjectStep": "prayer_sit",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الجلوس بين السجدتين",
+          "en": "Learn sitting between prostrations"
+        },
+        "next": "prayer_second_sujud"
+      },
+      {
+        "id": "prayer_second_sujud",
+        "subjectStep": "prayer_second_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "السجدة الثانية",
+          "en": "Second prostration"
+        },
+        "next": "prayer_demo_transition"
+      },
+      {
+        "id": "prayer_demo_transition",
+        "subjectStep": "prayer_demo_transition",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "إكمال الركعات",
+          "en": "Complete the rak'ahs"
+        },
+        "next": "prayer_tashahhud"
+      },
+      {
+        "id": "prayer_taslim",
+        "subjectStep": "prayer_taslim",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم ختام الصلاة",
+          "en": "Learn the end of prayer"
+        },
+        "next": "learning_ready"
+      },
+      {
+        "id": "learning_ready",
+        "subjectStep": "learning_ready",
+        "journeyId": "first_prayer",
+        "stageId": "ready",
+        "title": {
+          "ar": "جاهز تبدأ؟",
+          "en": "Ready to begin?"
+        }
+      },
+      {
+        "id": "prayer_done",
+        "subjectStep": "prayer_done",
+        "journeyId": "first_prayer",
+        "stageId": "completion",
+        "title": {
+          "ar": "تمت رحلتك الأولى",
+          "en": "Your first prayer journey is complete"
+        }
+      },
+      {
+        "id": "prayer_final_dua",
+        "subjectStep": "prayer_final_dua",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الدعاء قبل التسليم",
+          "en": "Supplication before Taslim"
+        },
+        "next": "prayer_taslim"
+      },
+      {
+        "id": "prayer_tashahhud",
+        "subjectStep": "prayer_tashahhud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الجلوس بعد الركعة الثانية",
+          "en": "Sitting after the second unit"
+        },
+        "next": "prayer_later_units"
+      },
+      {
+        "id": "prayer_later_units",
+        "subjectStep": "prayer_later_units",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الركعات الباقية والجلوس الأخير",
+          "en": "Remaining units and final sitting"
+        },
+        "next": "prayer_taslim"
+      },
+      {
+        "id": "wudu_intro",
+        "subjectStep": "wudu_intro",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "الوضوء",
+          "en": "Wudu"
+        },
+        "next": "wudu_hands"
+      },
+      {
+        "id": "wudu_hands",
+        "subjectStep": "wudu_hands",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "اغسل كفيك",
+          "en": "Wash your hands"
+        },
+        "next": "wudu_mouth"
+      },
+      {
+        "id": "wudu_mouth",
+        "subjectStep": "wudu_mouth",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "المضمضة",
+          "en": "Rinse your mouth"
+        },
+        "next": "wudu_nose"
+      },
+      {
+        "id": "wudu_nose",
+        "subjectStep": "wudu_nose",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "الاستنشاق",
+          "en": "Rinse your nose"
+        },
+        "next": "wudu_face"
+      },
+      {
+        "id": "wudu_face",
+        "subjectStep": "wudu_face",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "اغسل وجهك",
+          "en": "Wash your face"
+        },
+        "next": "wudu_right_arm"
+      },
+      {
+        "id": "wudu_right_arm",
+        "subjectStep": "wudu_right_arm",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "اغسل يدك اليمنى",
+          "en": "Wash your right arm"
+        },
+        "next": "wudu_left_arm"
+      },
+      {
+        "id": "wudu_left_arm",
+        "subjectStep": "wudu_left_arm",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "اغسل يدك اليسرى",
+          "en": "Wash your left arm"
+        },
+        "next": "wudu_head"
+      },
+      {
+        "id": "wudu_head",
+        "subjectStep": "wudu_head",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "امسح رأسك",
+          "en": "Wipe your head"
+        },
+        "next": "wudu_ears"
+      },
+      {
+        "id": "wudu_ears",
+        "subjectStep": "wudu_ears",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "امسح أذنيك",
+          "en": "Wipe your ears"
+        },
+        "next": "wudu_feet"
+      },
+      {
+        "id": "wudu_feet",
+        "subjectStep": "wudu_feet",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "اغسل قدميك",
+          "en": "Wash your feet"
+        },
+        "next": "wudu_complete"
+      },
+      {
+        "id": "wudu_complete",
+        "subjectStep": "wudu_complete",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "تم الوضوء",
+          "en": "Wudu complete"
+        },
+        "next": "prep_location"
+      },
+      {
+        "id": "unit_1_prayer_takbir",
+        "subjectStep": "prayer_takbir",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم بداية الصلاة",
+          "en": "Learn the beginning of prayer"
+        },
+        "next": "unit_1_prayer_stand",
+        "unitNumber": 1,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_1_prayer_stand",
+        "subjectStep": "prayer_stand",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "القيام والقراءة",
+          "en": "Standing and recitation"
+        },
+        "next": "unit_1_prayer_ruku",
+        "unitNumber": 1,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_1_prayer_ruku",
+        "subjectStep": "prayer_ruku",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الركوع",
+          "en": "Learn bowing"
+        },
+        "next": "unit_1_prayer_rise",
+        "unitNumber": 1,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_1_prayer_rise",
+        "subjectStep": "prayer_rise",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الرفع من الركوع",
+          "en": "Learn rising from bowing"
+        },
+        "next": "unit_1_prayer_sujud",
+        "unitNumber": 1,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_1_prayer_sujud",
+        "subjectStep": "prayer_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم السجود",
+          "en": "Learn prostration"
+        },
+        "next": "unit_1_prayer_sit",
+        "unitNumber": 1,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_1_prayer_sit",
+        "subjectStep": "prayer_sit",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الجلوس بين السجدتين",
+          "en": "Learn sitting between prostrations"
+        },
+        "next": "unit_1_prayer_second_sujud",
+        "unitNumber": 1,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_1_prayer_second_sujud",
+        "subjectStep": "prayer_second_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "السجدة الثانية",
+          "en": "Second prostration"
+        },
+        "next": "unit_2_prayer_stand",
+        "unitNumber": 1,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_2_prayer_stand",
+        "subjectStep": "prayer_stand",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "القيام والقراءة",
+          "en": "Standing and recitation"
+        },
+        "next": "unit_2_prayer_ruku",
+        "unitNumber": 2,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_2_prayer_ruku",
+        "subjectStep": "prayer_ruku",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الركوع",
+          "en": "Learn bowing"
+        },
+        "next": "unit_2_prayer_rise",
+        "unitNumber": 2,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_2_prayer_rise",
+        "subjectStep": "prayer_rise",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الرفع من الركوع",
+          "en": "Learn rising from bowing"
+        },
+        "next": "unit_2_prayer_sujud",
+        "unitNumber": 2,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_2_prayer_sujud",
+        "subjectStep": "prayer_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم السجود",
+          "en": "Learn prostration"
+        },
+        "next": "unit_2_prayer_sit",
+        "unitNumber": 2,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_2_prayer_sit",
+        "subjectStep": "prayer_sit",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الجلوس بين السجدتين",
+          "en": "Learn sitting between prostrations"
+        },
+        "next": "unit_2_prayer_second_sujud",
+        "unitNumber": 2,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_2_prayer_second_sujud",
+        "subjectStep": "prayer_second_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "السجدة الثانية",
+          "en": "Second prostration"
+        },
+        "next": "unit_2_prayer_tashahhud",
+        "unitNumber": 2,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_2_prayer_tashahhud",
+        "subjectStep": "prayer_tashahhud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الجلوس بعد الركعة الثانية",
+          "en": "Sitting after the second unit"
+        },
+        "next": "unit_3_prayer_stand",
+        "unitNumber": 2,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_3_prayer_stand",
+        "subjectStep": "prayer_stand",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "القيام والقراءة",
+          "en": "Standing and recitation"
+        },
+        "next": "unit_3_prayer_ruku",
+        "unitNumber": 3,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_3_prayer_ruku",
+        "subjectStep": "prayer_ruku",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الركوع",
+          "en": "Learn bowing"
+        },
+        "next": "unit_3_prayer_rise",
+        "unitNumber": 3,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_3_prayer_rise",
+        "subjectStep": "prayer_rise",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الرفع من الركوع",
+          "en": "Learn rising from bowing"
+        },
+        "next": "unit_3_prayer_sujud",
+        "unitNumber": 3,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_3_prayer_sujud",
+        "subjectStep": "prayer_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم السجود",
+          "en": "Learn prostration"
+        },
+        "next": "unit_3_prayer_sit",
+        "unitNumber": 3,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_3_prayer_sit",
+        "subjectStep": "prayer_sit",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الجلوس بين السجدتين",
+          "en": "Learn sitting between prostrations"
+        },
+        "next": "unit_3_prayer_second_sujud",
+        "unitNumber": 3,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_3_prayer_second_sujud",
+        "subjectStep": "prayer_second_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "السجدة الثانية",
+          "en": "Second prostration"
+        },
+        "next": "unit_4_prayer_stand",
+        "unitNumber": 3,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_stand",
+        "subjectStep": "prayer_stand",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "القيام والقراءة",
+          "en": "Standing and recitation"
+        },
+        "next": "unit_4_prayer_ruku",
+        "unitNumber": 4,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_ruku",
+        "subjectStep": "prayer_ruku",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الركوع",
+          "en": "Learn bowing"
+        },
+        "next": "unit_4_prayer_rise",
+        "unitNumber": 4,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_rise",
+        "subjectStep": "prayer_rise",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الرفع من الركوع",
+          "en": "Learn rising from bowing"
+        },
+        "next": "unit_4_prayer_sujud",
+        "unitNumber": 4,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_sujud",
+        "subjectStep": "prayer_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم السجود",
+          "en": "Learn prostration"
+        },
+        "next": "unit_4_prayer_sit",
+        "unitNumber": 4,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_sit",
+        "subjectStep": "prayer_sit",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الجلوس بين السجدتين",
+          "en": "Learn sitting between prostrations"
+        },
+        "next": "unit_4_prayer_second_sujud",
+        "unitNumber": 4,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_second_sujud",
+        "subjectStep": "prayer_second_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "السجدة الثانية",
+          "en": "Second prostration"
+        },
+        "next": "unit_4_prayer_tashahhud",
+        "unitNumber": 4,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_tashahhud",
+        "subjectStep": "prayer_tashahhud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "التشهد الأخير",
+          "en": "Final Tashahhud"
+        },
+        "next": "unit_4_prayer_later_units_final",
+        "unitNumber": 4,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_later_units_final",
+        "subjectStep": "prayer_later_units",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الجلوس الأخير والصلاة على النبي",
+          "en": "Final sitting and blessing on the Prophet"
+        },
+        "next": "unit_4_prayer_final_dua",
+        "unitNumber": 4,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_final_dua",
+        "subjectStep": "prayer_final_dua",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الدعاء قبل التسليم",
+          "en": "Supplication before Taslim"
+        },
+        "next": "unit_4_prayer_taslim",
+        "unitNumber": 4,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_taslim",
+        "subjectStep": "prayer_taslim",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم ختام الصلاة",
+          "en": "Learn the end of prayer"
+        },
+        "next": "learning_ready",
+        "unitNumber": 4,
+        "totalUnits": 4
+      }
+    ],
+    "maghrib": [
+      {
+        "id": "prayer_intro",
+        "subjectStep": "prayer_intro",
+        "journeyId": "first_prayer",
+        "stageId": "intro",
+        "title": {
+          "ar": "سنجهزك قبل الصلاة",
+          "en": "We will prepare you before prayer"
+        },
+        "next": "know_wudu"
+      },
+      {
+        "id": "know_wudu",
+        "subjectStep": "know_wudu",
+        "journeyId": "first_prayer",
+        "stageId": "readiness",
+        "title": {
+          "ar": "هل تعرف كيف تتوضأ؟",
+          "en": "Do you know how to perform Wudu?"
+        }
+      },
+      {
+        "id": "in_wudu",
+        "subjectStep": "in_wudu",
+        "journeyId": "first_prayer",
+        "stageId": "readiness",
+        "title": {
+          "ar": "هل أنت متوضئ الآن؟",
+          "en": "Are you currently in Wudu?"
+        }
+      },
+      {
+        "id": "prep_location",
+        "subjectStep": "prep_location",
+        "journeyId": "first_prayer",
+        "stageId": "preparation",
+        "title": {
+          "ar": "أين ستصلي؟",
+          "en": "Where will you pray?"
+        }
+      },
+      {
+        "id": "prep_qiblah",
+        "subjectStep": "prep_qiblah",
+        "journeyId": "first_prayer",
+        "stageId": "preparation",
+        "title": {
+          "ar": "استقبل القبلة",
+          "en": "Face the Qiblah"
+        },
+        "next": "prayer_selection"
+      },
+      {
+        "id": "prayer_selection",
+        "subjectStep": "prayer_selection",
+        "journeyId": "first_prayer",
+        "stageId": "preparation",
+        "title": {
+          "ar": "أي صلاة تستعد لها؟",
+          "en": "Which prayer are you preparing for?"
+        }
+      },
+      {
+        "id": "rakah_intro",
+        "subjectStep": "rakah_intro",
+        "journeyId": "first_prayer",
+        "stageId": "preparation",
+        "title": {
+          "ar": "ما معنى ركعة؟",
+          "en": "What is a rak'ah?"
+        },
+        "next": "pre_prayer_review"
+      },
+      {
+        "id": "pre_prayer_review",
+        "subjectStep": "pre_prayer_review",
+        "journeyId": "first_prayer",
+        "stageId": "preparation",
+        "title": {
+          "ar": "قبل أن تبدأ",
+          "en": "Before you begin"
+        },
+        "next": "unit_1_prayer_takbir"
+      },
+      {
+        "id": "prayer_ready",
+        "subjectStep": "prayer_ready",
+        "journeyId": "first_prayer",
+        "stageId": "ready",
+        "title": {
+          "ar": "أنت جاهز للصلاة",
+          "en": "You are ready to pray"
+        },
+        "next": "phone_aside_start"
+      },
+      {
+        "id": "phone_aside_start",
+        "subjectStep": "phone_aside_start",
+        "journeyId": "first_prayer",
+        "stageId": "ready",
+        "title": {
+          "ar": "ضع الهاتف جانبًا وابدأ الصلاة",
+          "en": "Put the phone aside and begin the prayer"
+        }
+      },
+      {
+        "id": "prayer_takbir",
+        "subjectStep": "prayer_takbir",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم بداية الصلاة",
+          "en": "Learn the beginning of prayer"
+        },
+        "next": "prayer_stand"
+      },
+      {
+        "id": "prayer_stand",
+        "subjectStep": "prayer_stand",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "القيام والقراءة",
+          "en": "Standing and recitation"
+        },
+        "next": "prayer_ruku"
+      },
+      {
+        "id": "prayer_ruku",
+        "subjectStep": "prayer_ruku",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الركوع",
+          "en": "Learn bowing"
+        },
+        "next": "prayer_rise"
+      },
+      {
+        "id": "prayer_rise",
+        "subjectStep": "prayer_rise",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الرفع من الركوع",
+          "en": "Learn rising from bowing"
+        },
+        "next": "prayer_sujud"
+      },
+      {
+        "id": "prayer_sujud",
+        "subjectStep": "prayer_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم السجود",
+          "en": "Learn prostration"
+        },
+        "next": "prayer_sit"
+      },
+      {
+        "id": "prayer_sit",
+        "subjectStep": "prayer_sit",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الجلوس بين السجدتين",
+          "en": "Learn sitting between prostrations"
+        },
+        "next": "prayer_second_sujud"
+      },
+      {
+        "id": "prayer_second_sujud",
+        "subjectStep": "prayer_second_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "السجدة الثانية",
+          "en": "Second prostration"
+        },
+        "next": "prayer_demo_transition"
+      },
+      {
+        "id": "prayer_demo_transition",
+        "subjectStep": "prayer_demo_transition",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "إكمال الركعات",
+          "en": "Complete the rak'ahs"
+        },
+        "next": "prayer_tashahhud"
+      },
+      {
+        "id": "prayer_taslim",
+        "subjectStep": "prayer_taslim",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم ختام الصلاة",
+          "en": "Learn the end of prayer"
+        },
+        "next": "learning_ready"
+      },
+      {
+        "id": "learning_ready",
+        "subjectStep": "learning_ready",
+        "journeyId": "first_prayer",
+        "stageId": "ready",
+        "title": {
+          "ar": "جاهز تبدأ؟",
+          "en": "Ready to begin?"
+        }
+      },
+      {
+        "id": "prayer_done",
+        "subjectStep": "prayer_done",
+        "journeyId": "first_prayer",
+        "stageId": "completion",
+        "title": {
+          "ar": "تمت رحلتك الأولى",
+          "en": "Your first prayer journey is complete"
+        }
+      },
+      {
+        "id": "prayer_final_dua",
+        "subjectStep": "prayer_final_dua",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الدعاء قبل التسليم",
+          "en": "Supplication before Taslim"
+        },
+        "next": "prayer_taslim"
+      },
+      {
+        "id": "prayer_tashahhud",
+        "subjectStep": "prayer_tashahhud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الجلوس بعد الركعة الثانية",
+          "en": "Sitting after the second unit"
+        },
+        "next": "prayer_later_units"
+      },
+      {
+        "id": "prayer_later_units",
+        "subjectStep": "prayer_later_units",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الركعات الباقية والجلوس الأخير",
+          "en": "Remaining units and final sitting"
+        },
+        "next": "prayer_taslim"
+      },
+      {
+        "id": "wudu_intro",
+        "subjectStep": "wudu_intro",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "الوضوء",
+          "en": "Wudu"
+        },
+        "next": "wudu_hands"
+      },
+      {
+        "id": "wudu_hands",
+        "subjectStep": "wudu_hands",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "اغسل كفيك",
+          "en": "Wash your hands"
+        },
+        "next": "wudu_mouth"
+      },
+      {
+        "id": "wudu_mouth",
+        "subjectStep": "wudu_mouth",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "المضمضة",
+          "en": "Rinse your mouth"
+        },
+        "next": "wudu_nose"
+      },
+      {
+        "id": "wudu_nose",
+        "subjectStep": "wudu_nose",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "الاستنشاق",
+          "en": "Rinse your nose"
+        },
+        "next": "wudu_face"
+      },
+      {
+        "id": "wudu_face",
+        "subjectStep": "wudu_face",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "اغسل وجهك",
+          "en": "Wash your face"
+        },
+        "next": "wudu_right_arm"
+      },
+      {
+        "id": "wudu_right_arm",
+        "subjectStep": "wudu_right_arm",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "اغسل يدك اليمنى",
+          "en": "Wash your right arm"
+        },
+        "next": "wudu_left_arm"
+      },
+      {
+        "id": "wudu_left_arm",
+        "subjectStep": "wudu_left_arm",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "اغسل يدك اليسرى",
+          "en": "Wash your left arm"
+        },
+        "next": "wudu_head"
+      },
+      {
+        "id": "wudu_head",
+        "subjectStep": "wudu_head",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "امسح رأسك",
+          "en": "Wipe your head"
+        },
+        "next": "wudu_ears"
+      },
+      {
+        "id": "wudu_ears",
+        "subjectStep": "wudu_ears",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "امسح أذنيك",
+          "en": "Wipe your ears"
+        },
+        "next": "wudu_feet"
+      },
+      {
+        "id": "wudu_feet",
+        "subjectStep": "wudu_feet",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "اغسل قدميك",
+          "en": "Wash your feet"
+        },
+        "next": "wudu_complete"
+      },
+      {
+        "id": "wudu_complete",
+        "subjectStep": "wudu_complete",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "تم الوضوء",
+          "en": "Wudu complete"
+        },
+        "next": "prep_location"
+      },
+      {
+        "id": "unit_1_prayer_takbir",
+        "subjectStep": "prayer_takbir",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم بداية الصلاة",
+          "en": "Learn the beginning of prayer"
+        },
+        "next": "unit_1_prayer_stand",
+        "unitNumber": 1,
+        "totalUnits": 3
+      },
+      {
+        "id": "unit_1_prayer_stand",
+        "subjectStep": "prayer_stand",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "القيام والقراءة",
+          "en": "Standing and recitation"
+        },
+        "next": "unit_1_prayer_ruku",
+        "unitNumber": 1,
+        "totalUnits": 3
+      },
+      {
+        "id": "unit_1_prayer_ruku",
+        "subjectStep": "prayer_ruku",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الركوع",
+          "en": "Learn bowing"
+        },
+        "next": "unit_1_prayer_rise",
+        "unitNumber": 1,
+        "totalUnits": 3
+      },
+      {
+        "id": "unit_1_prayer_rise",
+        "subjectStep": "prayer_rise",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الرفع من الركوع",
+          "en": "Learn rising from bowing"
+        },
+        "next": "unit_1_prayer_sujud",
+        "unitNumber": 1,
+        "totalUnits": 3
+      },
+      {
+        "id": "unit_1_prayer_sujud",
+        "subjectStep": "prayer_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم السجود",
+          "en": "Learn prostration"
+        },
+        "next": "unit_1_prayer_sit",
+        "unitNumber": 1,
+        "totalUnits": 3
+      },
+      {
+        "id": "unit_1_prayer_sit",
+        "subjectStep": "prayer_sit",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الجلوس بين السجدتين",
+          "en": "Learn sitting between prostrations"
+        },
+        "next": "unit_1_prayer_second_sujud",
+        "unitNumber": 1,
+        "totalUnits": 3
+      },
+      {
+        "id": "unit_1_prayer_second_sujud",
+        "subjectStep": "prayer_second_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "السجدة الثانية",
+          "en": "Second prostration"
+        },
+        "next": "unit_2_prayer_stand",
+        "unitNumber": 1,
+        "totalUnits": 3
+      },
+      {
+        "id": "unit_2_prayer_stand",
+        "subjectStep": "prayer_stand",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "القيام والقراءة",
+          "en": "Standing and recitation"
+        },
+        "next": "unit_2_prayer_ruku",
+        "unitNumber": 2,
+        "totalUnits": 3
+      },
+      {
+        "id": "unit_2_prayer_ruku",
+        "subjectStep": "prayer_ruku",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الركوع",
+          "en": "Learn bowing"
+        },
+        "next": "unit_2_prayer_rise",
+        "unitNumber": 2,
+        "totalUnits": 3
+      },
+      {
+        "id": "unit_2_prayer_rise",
+        "subjectStep": "prayer_rise",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الرفع من الركوع",
+          "en": "Learn rising from bowing"
+        },
+        "next": "unit_2_prayer_sujud",
+        "unitNumber": 2,
+        "totalUnits": 3
+      },
+      {
+        "id": "unit_2_prayer_sujud",
+        "subjectStep": "prayer_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم السجود",
+          "en": "Learn prostration"
+        },
+        "next": "unit_2_prayer_sit",
+        "unitNumber": 2,
+        "totalUnits": 3
+      },
+      {
+        "id": "unit_2_prayer_sit",
+        "subjectStep": "prayer_sit",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الجلوس بين السجدتين",
+          "en": "Learn sitting between prostrations"
+        },
+        "next": "unit_2_prayer_second_sujud",
+        "unitNumber": 2,
+        "totalUnits": 3
+      },
+      {
+        "id": "unit_2_prayer_second_sujud",
+        "subjectStep": "prayer_second_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "السجدة الثانية",
+          "en": "Second prostration"
+        },
+        "next": "unit_2_prayer_tashahhud",
+        "unitNumber": 2,
+        "totalUnits": 3
+      },
+      {
+        "id": "unit_2_prayer_tashahhud",
+        "subjectStep": "prayer_tashahhud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الجلوس بعد الركعة الثانية",
+          "en": "Sitting after the second unit"
+        },
+        "next": "unit_3_prayer_stand",
+        "unitNumber": 2,
+        "totalUnits": 3
+      },
+      {
+        "id": "unit_3_prayer_stand",
+        "subjectStep": "prayer_stand",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "القيام والقراءة",
+          "en": "Standing and recitation"
+        },
+        "next": "unit_3_prayer_ruku",
+        "unitNumber": 3,
+        "totalUnits": 3
+      },
+      {
+        "id": "unit_3_prayer_ruku",
+        "subjectStep": "prayer_ruku",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الركوع",
+          "en": "Learn bowing"
+        },
+        "next": "unit_3_prayer_rise",
+        "unitNumber": 3,
+        "totalUnits": 3
+      },
+      {
+        "id": "unit_3_prayer_rise",
+        "subjectStep": "prayer_rise",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الرفع من الركوع",
+          "en": "Learn rising from bowing"
+        },
+        "next": "unit_3_prayer_sujud",
+        "unitNumber": 3,
+        "totalUnits": 3
+      },
+      {
+        "id": "unit_3_prayer_sujud",
+        "subjectStep": "prayer_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم السجود",
+          "en": "Learn prostration"
+        },
+        "next": "unit_3_prayer_sit",
+        "unitNumber": 3,
+        "totalUnits": 3
+      },
+      {
+        "id": "unit_3_prayer_sit",
+        "subjectStep": "prayer_sit",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الجلوس بين السجدتين",
+          "en": "Learn sitting between prostrations"
+        },
+        "next": "unit_3_prayer_second_sujud",
+        "unitNumber": 3,
+        "totalUnits": 3
+      },
+      {
+        "id": "unit_3_prayer_second_sujud",
+        "subjectStep": "prayer_second_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "السجدة الثانية",
+          "en": "Second prostration"
+        },
+        "next": "unit_3_prayer_tashahhud",
+        "unitNumber": 3,
+        "totalUnits": 3
+      },
+      {
+        "id": "unit_3_prayer_tashahhud",
+        "subjectStep": "prayer_tashahhud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "التشهد الأخير",
+          "en": "Final Tashahhud"
+        },
+        "next": "unit_3_prayer_later_units_final",
+        "unitNumber": 3,
+        "totalUnits": 3
+      },
+      {
+        "id": "unit_3_prayer_later_units_final",
+        "subjectStep": "prayer_later_units",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الجلوس الأخير والصلاة على النبي",
+          "en": "Final sitting and blessing on the Prophet"
+        },
+        "next": "unit_3_prayer_final_dua",
+        "unitNumber": 3,
+        "totalUnits": 3
+      },
+      {
+        "id": "unit_3_prayer_final_dua",
+        "subjectStep": "prayer_final_dua",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الدعاء قبل التسليم",
+          "en": "Supplication before Taslim"
+        },
+        "next": "unit_3_prayer_taslim",
+        "unitNumber": 3,
+        "totalUnits": 3
+      },
+      {
+        "id": "unit_3_prayer_taslim",
+        "subjectStep": "prayer_taslim",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم ختام الصلاة",
+          "en": "Learn the end of prayer"
+        },
+        "next": "learning_ready",
+        "unitNumber": 3,
+        "totalUnits": 3
+      }
+    ],
+    "isha": [
+      {
+        "id": "prayer_intro",
+        "subjectStep": "prayer_intro",
+        "journeyId": "first_prayer",
+        "stageId": "intro",
+        "title": {
+          "ar": "سنجهزك قبل الصلاة",
+          "en": "We will prepare you before prayer"
+        },
+        "next": "know_wudu"
+      },
+      {
+        "id": "know_wudu",
+        "subjectStep": "know_wudu",
+        "journeyId": "first_prayer",
+        "stageId": "readiness",
+        "title": {
+          "ar": "هل تعرف كيف تتوضأ؟",
+          "en": "Do you know how to perform Wudu?"
+        }
+      },
+      {
+        "id": "in_wudu",
+        "subjectStep": "in_wudu",
+        "journeyId": "first_prayer",
+        "stageId": "readiness",
+        "title": {
+          "ar": "هل أنت متوضئ الآن؟",
+          "en": "Are you currently in Wudu?"
+        }
+      },
+      {
+        "id": "prep_location",
+        "subjectStep": "prep_location",
+        "journeyId": "first_prayer",
+        "stageId": "preparation",
+        "title": {
+          "ar": "أين ستصلي؟",
+          "en": "Where will you pray?"
+        }
+      },
+      {
+        "id": "prep_qiblah",
+        "subjectStep": "prep_qiblah",
+        "journeyId": "first_prayer",
+        "stageId": "preparation",
+        "title": {
+          "ar": "استقبل القبلة",
+          "en": "Face the Qiblah"
+        },
+        "next": "prayer_selection"
+      },
+      {
+        "id": "prayer_selection",
+        "subjectStep": "prayer_selection",
+        "journeyId": "first_prayer",
+        "stageId": "preparation",
+        "title": {
+          "ar": "أي صلاة تستعد لها؟",
+          "en": "Which prayer are you preparing for?"
+        }
+      },
+      {
+        "id": "rakah_intro",
+        "subjectStep": "rakah_intro",
+        "journeyId": "first_prayer",
+        "stageId": "preparation",
+        "title": {
+          "ar": "ما معنى ركعة؟",
+          "en": "What is a rak'ah?"
+        },
+        "next": "pre_prayer_review"
+      },
+      {
+        "id": "pre_prayer_review",
+        "subjectStep": "pre_prayer_review",
+        "journeyId": "first_prayer",
+        "stageId": "preparation",
+        "title": {
+          "ar": "قبل أن تبدأ",
+          "en": "Before you begin"
+        },
+        "next": "unit_1_prayer_takbir"
+      },
+      {
+        "id": "prayer_ready",
+        "subjectStep": "prayer_ready",
+        "journeyId": "first_prayer",
+        "stageId": "ready",
+        "title": {
+          "ar": "أنت جاهز للصلاة",
+          "en": "You are ready to pray"
+        },
+        "next": "phone_aside_start"
+      },
+      {
+        "id": "phone_aside_start",
+        "subjectStep": "phone_aside_start",
+        "journeyId": "first_prayer",
+        "stageId": "ready",
+        "title": {
+          "ar": "ضع الهاتف جانبًا وابدأ الصلاة",
+          "en": "Put the phone aside and begin the prayer"
+        }
+      },
+      {
+        "id": "prayer_takbir",
+        "subjectStep": "prayer_takbir",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم بداية الصلاة",
+          "en": "Learn the beginning of prayer"
+        },
+        "next": "prayer_stand"
+      },
+      {
+        "id": "prayer_stand",
+        "subjectStep": "prayer_stand",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "القيام والقراءة",
+          "en": "Standing and recitation"
+        },
+        "next": "prayer_ruku"
+      },
+      {
+        "id": "prayer_ruku",
+        "subjectStep": "prayer_ruku",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الركوع",
+          "en": "Learn bowing"
+        },
+        "next": "prayer_rise"
+      },
+      {
+        "id": "prayer_rise",
+        "subjectStep": "prayer_rise",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الرفع من الركوع",
+          "en": "Learn rising from bowing"
+        },
+        "next": "prayer_sujud"
+      },
+      {
+        "id": "prayer_sujud",
+        "subjectStep": "prayer_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم السجود",
+          "en": "Learn prostration"
+        },
+        "next": "prayer_sit"
+      },
+      {
+        "id": "prayer_sit",
+        "subjectStep": "prayer_sit",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الجلوس بين السجدتين",
+          "en": "Learn sitting between prostrations"
+        },
+        "next": "prayer_second_sujud"
+      },
+      {
+        "id": "prayer_second_sujud",
+        "subjectStep": "prayer_second_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "السجدة الثانية",
+          "en": "Second prostration"
+        },
+        "next": "prayer_demo_transition"
+      },
+      {
+        "id": "prayer_demo_transition",
+        "subjectStep": "prayer_demo_transition",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "إكمال الركعات",
+          "en": "Complete the rak'ahs"
+        },
+        "next": "prayer_tashahhud"
+      },
+      {
+        "id": "prayer_taslim",
+        "subjectStep": "prayer_taslim",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم ختام الصلاة",
+          "en": "Learn the end of prayer"
+        },
+        "next": "learning_ready"
+      },
+      {
+        "id": "learning_ready",
+        "subjectStep": "learning_ready",
+        "journeyId": "first_prayer",
+        "stageId": "ready",
+        "title": {
+          "ar": "جاهز تبدأ؟",
+          "en": "Ready to begin?"
+        }
+      },
+      {
+        "id": "prayer_done",
+        "subjectStep": "prayer_done",
+        "journeyId": "first_prayer",
+        "stageId": "completion",
+        "title": {
+          "ar": "تمت رحلتك الأولى",
+          "en": "Your first prayer journey is complete"
+        }
+      },
+      {
+        "id": "prayer_final_dua",
+        "subjectStep": "prayer_final_dua",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الدعاء قبل التسليم",
+          "en": "Supplication before Taslim"
+        },
+        "next": "prayer_taslim"
+      },
+      {
+        "id": "prayer_tashahhud",
+        "subjectStep": "prayer_tashahhud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الجلوس بعد الركعة الثانية",
+          "en": "Sitting after the second unit"
+        },
+        "next": "prayer_later_units"
+      },
+      {
+        "id": "prayer_later_units",
+        "subjectStep": "prayer_later_units",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الركعات الباقية والجلوس الأخير",
+          "en": "Remaining units and final sitting"
+        },
+        "next": "prayer_taslim"
+      },
+      {
+        "id": "wudu_intro",
+        "subjectStep": "wudu_intro",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "الوضوء",
+          "en": "Wudu"
+        },
+        "next": "wudu_hands"
+      },
+      {
+        "id": "wudu_hands",
+        "subjectStep": "wudu_hands",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "اغسل كفيك",
+          "en": "Wash your hands"
+        },
+        "next": "wudu_mouth"
+      },
+      {
+        "id": "wudu_mouth",
+        "subjectStep": "wudu_mouth",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "المضمضة",
+          "en": "Rinse your mouth"
+        },
+        "next": "wudu_nose"
+      },
+      {
+        "id": "wudu_nose",
+        "subjectStep": "wudu_nose",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "الاستنشاق",
+          "en": "Rinse your nose"
+        },
+        "next": "wudu_face"
+      },
+      {
+        "id": "wudu_face",
+        "subjectStep": "wudu_face",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "اغسل وجهك",
+          "en": "Wash your face"
+        },
+        "next": "wudu_right_arm"
+      },
+      {
+        "id": "wudu_right_arm",
+        "subjectStep": "wudu_right_arm",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "اغسل يدك اليمنى",
+          "en": "Wash your right arm"
+        },
+        "next": "wudu_left_arm"
+      },
+      {
+        "id": "wudu_left_arm",
+        "subjectStep": "wudu_left_arm",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "اغسل يدك اليسرى",
+          "en": "Wash your left arm"
+        },
+        "next": "wudu_head"
+      },
+      {
+        "id": "wudu_head",
+        "subjectStep": "wudu_head",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "امسح رأسك",
+          "en": "Wipe your head"
+        },
+        "next": "wudu_ears"
+      },
+      {
+        "id": "wudu_ears",
+        "subjectStep": "wudu_ears",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "امسح أذنيك",
+          "en": "Wipe your ears"
+        },
+        "next": "wudu_feet"
+      },
+      {
+        "id": "wudu_feet",
+        "subjectStep": "wudu_feet",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "اغسل قدميك",
+          "en": "Wash your feet"
+        },
+        "next": "wudu_complete"
+      },
+      {
+        "id": "wudu_complete",
+        "subjectStep": "wudu_complete",
+        "journeyId": "first_prayer",
+        "stageId": "wudu",
+        "title": {
+          "ar": "تم الوضوء",
+          "en": "Wudu complete"
+        },
+        "next": "prep_location"
+      },
+      {
+        "id": "unit_1_prayer_takbir",
+        "subjectStep": "prayer_takbir",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم بداية الصلاة",
+          "en": "Learn the beginning of prayer"
+        },
+        "next": "unit_1_prayer_stand",
+        "unitNumber": 1,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_1_prayer_stand",
+        "subjectStep": "prayer_stand",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "القيام والقراءة",
+          "en": "Standing and recitation"
+        },
+        "next": "unit_1_prayer_ruku",
+        "unitNumber": 1,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_1_prayer_ruku",
+        "subjectStep": "prayer_ruku",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الركوع",
+          "en": "Learn bowing"
+        },
+        "next": "unit_1_prayer_rise",
+        "unitNumber": 1,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_1_prayer_rise",
+        "subjectStep": "prayer_rise",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الرفع من الركوع",
+          "en": "Learn rising from bowing"
+        },
+        "next": "unit_1_prayer_sujud",
+        "unitNumber": 1,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_1_prayer_sujud",
+        "subjectStep": "prayer_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم السجود",
+          "en": "Learn prostration"
+        },
+        "next": "unit_1_prayer_sit",
+        "unitNumber": 1,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_1_prayer_sit",
+        "subjectStep": "prayer_sit",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الجلوس بين السجدتين",
+          "en": "Learn sitting between prostrations"
+        },
+        "next": "unit_1_prayer_second_sujud",
+        "unitNumber": 1,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_1_prayer_second_sujud",
+        "subjectStep": "prayer_second_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "السجدة الثانية",
+          "en": "Second prostration"
+        },
+        "next": "unit_2_prayer_stand",
+        "unitNumber": 1,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_2_prayer_stand",
+        "subjectStep": "prayer_stand",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "القيام والقراءة",
+          "en": "Standing and recitation"
+        },
+        "next": "unit_2_prayer_ruku",
+        "unitNumber": 2,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_2_prayer_ruku",
+        "subjectStep": "prayer_ruku",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الركوع",
+          "en": "Learn bowing"
+        },
+        "next": "unit_2_prayer_rise",
+        "unitNumber": 2,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_2_prayer_rise",
+        "subjectStep": "prayer_rise",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الرفع من الركوع",
+          "en": "Learn rising from bowing"
+        },
+        "next": "unit_2_prayer_sujud",
+        "unitNumber": 2,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_2_prayer_sujud",
+        "subjectStep": "prayer_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم السجود",
+          "en": "Learn prostration"
+        },
+        "next": "unit_2_prayer_sit",
+        "unitNumber": 2,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_2_prayer_sit",
+        "subjectStep": "prayer_sit",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الجلوس بين السجدتين",
+          "en": "Learn sitting between prostrations"
+        },
+        "next": "unit_2_prayer_second_sujud",
+        "unitNumber": 2,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_2_prayer_second_sujud",
+        "subjectStep": "prayer_second_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "السجدة الثانية",
+          "en": "Second prostration"
+        },
+        "next": "unit_2_prayer_tashahhud",
+        "unitNumber": 2,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_2_prayer_tashahhud",
+        "subjectStep": "prayer_tashahhud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الجلوس بعد الركعة الثانية",
+          "en": "Sitting after the second unit"
+        },
+        "next": "unit_3_prayer_stand",
+        "unitNumber": 2,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_3_prayer_stand",
+        "subjectStep": "prayer_stand",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "القيام والقراءة",
+          "en": "Standing and recitation"
+        },
+        "next": "unit_3_prayer_ruku",
+        "unitNumber": 3,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_3_prayer_ruku",
+        "subjectStep": "prayer_ruku",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الركوع",
+          "en": "Learn bowing"
+        },
+        "next": "unit_3_prayer_rise",
+        "unitNumber": 3,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_3_prayer_rise",
+        "subjectStep": "prayer_rise",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الرفع من الركوع",
+          "en": "Learn rising from bowing"
+        },
+        "next": "unit_3_prayer_sujud",
+        "unitNumber": 3,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_3_prayer_sujud",
+        "subjectStep": "prayer_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم السجود",
+          "en": "Learn prostration"
+        },
+        "next": "unit_3_prayer_sit",
+        "unitNumber": 3,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_3_prayer_sit",
+        "subjectStep": "prayer_sit",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الجلوس بين السجدتين",
+          "en": "Learn sitting between prostrations"
+        },
+        "next": "unit_3_prayer_second_sujud",
+        "unitNumber": 3,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_3_prayer_second_sujud",
+        "subjectStep": "prayer_second_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "السجدة الثانية",
+          "en": "Second prostration"
+        },
+        "next": "unit_4_prayer_stand",
+        "unitNumber": 3,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_stand",
+        "subjectStep": "prayer_stand",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "القيام والقراءة",
+          "en": "Standing and recitation"
+        },
+        "next": "unit_4_prayer_ruku",
+        "unitNumber": 4,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_ruku",
+        "subjectStep": "prayer_ruku",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الركوع",
+          "en": "Learn bowing"
+        },
+        "next": "unit_4_prayer_rise",
+        "unitNumber": 4,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_rise",
+        "subjectStep": "prayer_rise",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الرفع من الركوع",
+          "en": "Learn rising from bowing"
+        },
+        "next": "unit_4_prayer_sujud",
+        "unitNumber": 4,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_sujud",
+        "subjectStep": "prayer_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم السجود",
+          "en": "Learn prostration"
+        },
+        "next": "unit_4_prayer_sit",
+        "unitNumber": 4,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_sit",
+        "subjectStep": "prayer_sit",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم الجلوس بين السجدتين",
+          "en": "Learn sitting between prostrations"
+        },
+        "next": "unit_4_prayer_second_sujud",
+        "unitNumber": 4,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_second_sujud",
+        "subjectStep": "prayer_second_sujud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "السجدة الثانية",
+          "en": "Second prostration"
+        },
+        "next": "unit_4_prayer_tashahhud",
+        "unitNumber": 4,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_tashahhud",
+        "subjectStep": "prayer_tashahhud",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "التشهد الأخير",
+          "en": "Final Tashahhud"
+        },
+        "next": "unit_4_prayer_later_units_final",
+        "unitNumber": 4,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_later_units_final",
+        "subjectStep": "prayer_later_units",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الجلوس الأخير والصلاة على النبي",
+          "en": "Final sitting and blessing on the Prophet"
+        },
+        "next": "unit_4_prayer_final_dua",
+        "unitNumber": 4,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_final_dua",
+        "subjectStep": "prayer_final_dua",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "الدعاء قبل التسليم",
+          "en": "Supplication before Taslim"
+        },
+        "next": "unit_4_prayer_taslim",
+        "unitNumber": 4,
+        "totalUnits": 4
+      },
+      {
+        "id": "unit_4_prayer_taslim",
+        "subjectStep": "prayer_taslim",
+        "journeyId": "first_prayer",
+        "stageId": "prayer",
+        "title": {
+          "ar": "تعلّم ختام الصلاة",
+          "en": "Learn the end of prayer"
+        },
+        "next": "learning_ready",
+        "unitNumber": 4,
+        "totalUnits": 4
+      }
+    ]
+  },
+  "first_fast": [
+    {
+      "id": "fast_intro",
+      "subjectStep": "fast_intro",
+      "journeyId": "first_fast",
+      "stageId": "preparation",
+      "title": {
+        "ar": "أول صيام",
+        "en": "First Fast"
+      },
+      "next": "fast_intention"
+    },
+    {
+      "id": "fast_intention",
+      "subjectStep": "fast_intention",
+      "journeyId": "first_fast",
+      "stageId": "before_fajr",
+      "title": {
+        "ar": "النية",
+        "en": "Intention"
+      },
+      "next": "suhoor"
+    },
+    {
+      "id": "suhoor",
+      "subjectStep": "suhoor",
+      "journeyId": "first_fast",
+      "stageId": "before_fajr",
+      "title": {
+        "ar": "السحور",
+        "en": "Suhoor"
+      },
+      "next": "approaching_fajr"
+    },
+    {
+      "id": "fast_begin",
+      "subjectStep": "fast_begin",
+      "journeyId": "first_fast",
+      "stageId": "fajr",
+      "title": {
+        "ar": "بداية الصيام: مراجعة",
+        "en": "Review the start of fasting"
+      },
+      "next": "fast_day"
+    },
+    {
+      "id": "fast_day",
+      "subjectStep": "fast_day",
+      "journeyId": "first_fast",
+      "stageId": "daytime",
+      "title": {
+        "ar": "أثناء النهار",
+        "en": "During the day"
+      },
+      "next": "approaching_iftar"
+    },
+    {
+      "id": "approaching_iftar",
+      "subjectStep": "approaching_iftar",
+      "journeyId": "first_fast",
+      "stageId": "approaching_iftar",
+      "title": {
+        "ar": "قرب الإفطار في المحاكاة",
+        "en": "Approaching Iftar in the simulation"
+      },
+      "next": "iftar"
+    },
+    {
+      "id": "iftar",
+      "subjectStep": "iftar",
+      "journeyId": "first_fast",
+      "stageId": "iftar",
+      "title": {
+        "ar": "الإفطار",
+        "en": "Iftar"
+      },
+      "next": "fast_done"
+    },
+    {
+      "id": "fast_done",
+      "subjectStep": "fast_done",
+      "journeyId": "first_fast",
+      "stageId": "completion",
+      "title": {
+        "ar": "أكملت مراجعة يوم الصيام",
+        "en": "Fasting-day review complete"
+      }
+    },
+    {
+      "id": "approaching_fajr",
+      "subjectStep": "approaching_fajr",
+      "journeyId": "first_fast",
+      "stageId": "before_fajr",
+      "title": {
+        "ar": "قبل بدء الصيام",
+        "en": "Before fasting begins"
+      },
+      "next": "fast_begin"
+    }
+  ]
+}
