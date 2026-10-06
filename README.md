@@ -101,10 +101,10 @@ For an explicit hackathon demo deployment, set `VITE_DEMO_CONTROLS=true` and bui
 ```bash
 npm run lint
 npm run validate:content
+npm run build
 npm run evaluate:ask
 node scripts/evaluate-entry-simplification.mjs
 node scripts/evaluate-deployment.mjs
-npm run build
 ```
 
 The contextual suite covers 287 question instances, both languages, follow-ups, safety and citations. These finite regression results are not a universal accuracy guarantee or scholarly certification.

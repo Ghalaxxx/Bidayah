@@ -54,19 +54,19 @@ No new religious domains should be added until the source, review, retrieval, an
 
 ## Main Risks
 
-1. **Religious provenance drift**  
+1. **Religious provenance drift**
    Inline content can be changed without a review trail. Every religious claim needs a source-backed claim record or `NEEDS_REVIEW`.
 
-2. **Overgeneralization**  
+2. **Overgeneralization**
    The product must not transfer a Sunnah, number, dua, sequence, requirement, or recommendation from one context to another without explicit approved-source support.
 
-3. **Frontend lock-in**  
+3. **Frontend lock-in**
    The current UI is useful, but the future designer frontend should consume stable journey and answer services rather than reimplementing religious logic.
 
-4. **LLM overreach**  
+4. **LLM overreach**
    A generic chat model must not decide ritual order or invent rulings. The Journey Engine owns sequence; retrieval provides approved context; generation is constrained.
 
-5. **False sense of RAG**  
+5. **False sense of RAG**
    Keyword retrieval with source IDs is not sufficient for production religious QA. It should remain as a deterministic fallback and evaluation baseline.
 
 ## Recommended Refactor Boundaries
